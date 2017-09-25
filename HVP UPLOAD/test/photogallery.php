@@ -28,22 +28,20 @@
 </head>
 
 <body>
-	<!--[if lt IE 8]>
-	<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-	<![endif]-->
-	<div class="container-fluid">
-		<div class="row">
+	<div class="container-fluid fixed widthNAV">
+		<div class="row navBGcolor">
+		<div class="col-xl-10 col-xl-offset-2 col-lg-8 col-lg-offset-2 col-md-12 col-sm-12">
 			<div class="header-nav-wrapper">
 				<div class="logo">
-					<a href="index.php"><img src="img/hsvlogo2.png" alt="Synthetica Freebie"></a>
-				</div>
+							<a href="index.php"><img src="img/hsvlogo2.png" alt="home logo"></a>
+							</div>
 				<div class="primary-nav-wrapper">
 					<nav>
 						<ul class="primary-nav">
 							<li><a href="photogallery.php">Photo Gallery</a></li>
-							<li><a href="index.php#intro">About</a></li>
-							<li><a href="index.php#freebies">Similar Sites</a></li>
-							<li><a href="index.php#contact">Contact</a></li>
+							<li><a href="#intro">About</a></li>
+							<li><a href="#similarsites">Similar Sites</a></li>
+							<li><a href="#contact">Contact</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -53,11 +51,18 @@
 			</div>
 		</div>
 	</div>
-
+	</div>
+<div class="container-fluid">
+<div class="row">
+<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
 	<!-- Contact Start -->
 	<div class="galleryhead">
 		<h2>Grid Gallery</h2>
+		<p>See some of the great photos taken by the students of UAH Photography classes.</p>
 	</div>
+</div>
+</div>
+</div>
 	  <div class="flex-wrapper">
 
         <a class="one" href="grida1.php" style="background-image:url(<cms:editable name='bg_picture_a1' type='image' />);">
@@ -350,23 +355,21 @@
                 </div>
             </div>
         </a>
-
-    </div>
+</div>
 	<!-- SECTION: Footer -->
-	<footer class="has-padding footer-bg">
+<footer class="has-padding footer-bg">
 		<div class="container">
-			<div class="row">
-				<div class="col-md-4 footer-branding">
-					<img class="footer-branding-logo" src="img/hsvlogo2.png">
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-12 footer-nav">
+			<p class="footercopy">All photographs are copyright by the respective artists and may not be used without the express permission of the
+			photographer or the UAH Art Department. If you have more interest in the UAH Art Department, please visit
+			this link:<a class="footerlink" href="http://www.uah.edu/ahs/departments/art"> UAH ART DEPARTMENT</a></p>
+			<div class="row footer-ROW">
+				<div class="col-md-12 col-md-offset-2 footer-nav">
 					<ul class="footer-primary-nav">
+						<li><a href="index.php"><img class="footer-branding-logo" src="img/hsvlogo2.png"></a></li>
 						<li><a href="photogallery.php">Photo Gallery</a></li>
-						<li><a href="index.php#intro">About</a></li>
-						<li><a href="index.php#freebies">Similar Sites</a></li>
-						<li><a href="index.php#contact">Contact</a></li>
+						<li><a href="#intro">About</a></li>
+						<li><a href="#similarsites">Similar Sites</a></li>
+						<li><a href="#contact">Contact</a></li>
 					</ul>
 				</div>
 			</div>

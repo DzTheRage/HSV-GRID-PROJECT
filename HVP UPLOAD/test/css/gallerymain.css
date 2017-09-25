@@ -9,13 +9,13 @@
     padding:20px;
 }
 .galleryhead {
-    margin-top:15px;
+    margin-top:300px;
     text-align:center;
     background-color:#fff;
     padding:40px;
 }
 .galleryhead h2 {
-    color:black;
+    color:#355678;
     font-size: 5rem;
     text-transform: uppercase;
     font-weight: bold;
@@ -28,6 +28,12 @@
     5px 4px 1px #ccc, 4px 5px 1px #eee,
     6px 5px 1px #ccc, 5px 6px 1px #eee,
     7px 6px 1px #ccc;
+}
+.galleryhead p {
+    font-size: 1.3rem;
+    margin-top:25px;
+    font-weight:100;
+    color:black;
 }
 hr {
     margin-top:0px;
@@ -316,10 +322,15 @@ background-size:cover;
     overflow-x: hidden;
     }
     .galleryhead h2 {
-    color:black;
-    font-size: 3rem;
+    font-size: 4rem;
     text-transform: uppercase;
     font-weight: bold;
     line-height: 1;
-}
+    }
+    .galleryhead p {
+    font-size: 1.2rem;
+    }
+    .galleryhead {
+    margin-top:250px;
+    } 
 }

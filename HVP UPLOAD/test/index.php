@@ -14,10 +14,8 @@
 	<title>HSV GRID PROJECT</title>
 	<meta name="description" content="UAH Photography Grid Project">
 	<meta name="keywords" content="huntsville, grid project, UAH, UAH Photo" />
-	<meta name="author" content="ScottV Codrops" />
+	<meta name="author" content="ScottV" />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-	<!-- end favicon links -->
 	<link rel="stylesheet" href="css/bootstrap.min.css" />
 	<link rel="stylesheet" href="css/normalize.min.css">
 	<link rel="stylesheet" href="css/animate.min.css">
@@ -28,21 +26,19 @@
 </head>
 
 <body>
-	<!--[if lt IE 8]>
-	<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-	<![endif]-->
-	<div class="container-fluid">
-		<div class="row">
+	<div class="container-fluid fixed widthNAV">
+		<div class="row navBGcolor">
+		<div class="col-xl-10 col-xl-offset-2 col-lg-8 col-lg-offset-2 col-md-12 col-sm-12">
 			<div class="header-nav-wrapper">
 				<div class="logo">
-					<a href="index.php"><img src="img/hsvlogo2.png" alt="Synthetica Freebie"></a>
-				</div>
+							<a href="index.php"><img src="img/hsvlogo2.png" alt="home logo"></a>
+							</div>
 				<div class="primary-nav-wrapper">
 					<nav>
 						<ul class="primary-nav">
 							<li><a href="photogallery.php">Photo Gallery</a></li>
 							<li><a href="#intro">About</a></li>
-							<li><a href="#freebies">Similar Sites</a></li>
+							<li><a href="#similarsites">Similar Sites</a></li>
 							<li><a href="#contact">Contact</a></li>
 						</ul>
 					</nav>
@@ -53,6 +49,7 @@
 			</div>
 		</div>
 	</div>
+	</div>
 	<div id="top">
 	<header class="hero">
 		<div class="hero-bg">
@@ -62,13 +59,13 @@
 						<div class="hero-intro-text">
 							<cms:editable name='intro_header' type='richtext'>
 							<h1>Welcome to the Huntsville Grid Project</h1>
-							<p>Click a grid below to get started or scroll down for more info.</p>
+							<p>Click the grid below to view photos or scroll down for information on the project.</p>
 							</cms:editable>
 						</div>
 					</div>
 				</div>
 			</div>
-			<div class="container">
+			<div class="container hidemobile">
 					<div class="row">
 						<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
 						<hr>
@@ -105,6 +102,13 @@
 <!-- MAP END --></div>
 						</div>
 					</div>
+			<div class="container mobileFILLER">
+			<div class="row">
+			<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+			<img id="Image-Maps-Com-image-maps-2017-04-30-191836" src="img/HuntsvilleGridProjectMap.jpg" border="0" width="100%" height="100%" orgWidth="100%" orgHeight="100%" usemap="#image-maps-2017-04-30-191836" alt="" />
+			</div>
+			</div>
+			</div>
 				</div>
 			</div>
 		</div>
@@ -163,9 +167,9 @@
 		</div>
 	</div>
 	<!-- END SECTION: Stats -->
-	<!-- SECTION: Freebies -->
-	<section class="freebies has-padding" id="freebies">
-		<div class="container freebies-intro">
+	<!-- SECTION: SIMILAR SITES-->
+	<section class="similarsites has-padding" id="similarsites">
+		<div class="container similarsites-intro">
 			<div class="row">
 				<div class="col-md-12">
 					<h4>Similar Sites</h4>
@@ -194,7 +198,7 @@
 					<article class="item wp5">
 						<figure class="has-overlay">
 							<figcaption class="overlay">
-								<div class="freebie-content">
+								<div class="similarsites-content">
 									<cms:editable name='similarsite_site1' type='richtext'>
 									<h2></h2>
 									</cms:editable>
@@ -211,7 +215,7 @@
 					<article class="item wp6">
 						<figure class="has-overlay">
 							<figcaption class="overlay">
-								<div class="freebie-content">
+								<div class="similarsites-content">
 									<cms:editable name='similarsite_site2' type='richtext'>
 									<h2></h2>
 									</cms:editable>
@@ -230,7 +234,7 @@
 					<article class="item wp7">
 						<figure class="has-overlay">
 							<figcaption class="overlay">
-								<div class="freebie-content">
+								<div class="similarsites-content">
 									<cms:editable name='similarsite_site3' type='richtext'>
 									<h2></h2>
 									</cms:editable>
@@ -247,7 +251,7 @@
 					<article class="item wp8">
 						<figure class="has-overlay">
 							<figcaption class="overlay">
-								<div class="freebie-content">
+								<div class="similarsites-content">
 									<cms:editable name='similarsite_site4' type='richtext'>
 									<h2></h2>
 									</cms:editable>
@@ -263,10 +267,10 @@
 			</div>
 		</div>
 	</section>
-	<!-- END SECTION: Freebies -->
+	<!-- END SECTION: similarsites -->
 	<!-- SECTION: CONTACT --->
-	<section class="freebies" id="contact">
-		<div class="container freebies-intro">
+	<section class="similarsites" id="contact">
+		<div class="container similarsites-intro">
 			<div class="row">
 				<div class="col-md-12">
 					<h4>Contact</h4>
@@ -287,12 +291,11 @@
 		</div>
 	<!-- END SECTION: CONTACT -->
 	<!-- SECTION: Get started -->
-	<section class="get-started has-padding text-center" id="get-started" style="background-image:url(<cms:editable name='bg_thanks_for_visitng' type='image' />);">
+	<section style="height:400px;" class="get-started has-padding text-center" id="get-started" style="background-image:url(<cms:editable name='bg_thanks_for_visitng' type='image' />);">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 wp4">
-					<h2>Thanks for visitng!</h2>
-					<a href="#top" class="btn secondary-white">Back to Top</a>
+					<h2>THANKS FOR VISITING THE HSV GRID PROJECT!</h2>
 				</div>
 			</div>
 		</div>
@@ -301,18 +304,16 @@
 	<!-- SECTION: Footer -->
 	<footer class="has-padding footer-bg">
 		<div class="container">
-			<div class="row">
-				<div class="col-md-4 footer-branding">
-					<img class="footer-branding-logo" src="img/hsvlogo2.png">
-					<p>UAH PHOTO DEPARTMENT</p>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-12 footer-nav">
+			<p class="footercopy">All photographs are copyright by the respective artists and may not be used without the express permission of the
+			photographer or the UAH Art Department. If you have more interest in the UAH Art Department, please visit
+			this link:<a class="footerlink" href="http://www.uah.edu/ahs/departments/art"> UAH ART DEPARTMENT</a></p>
+			<div class="row footer-ROW">
+				<div class="col-md-12 col-md-offset-2 footer-nav">
 					<ul class="footer-primary-nav">
+						<li><a href="index.php"><img class="footer-branding-logo" src="img/hsvlogo2.png"></a></li>
 						<li><a href="photogallery.php">Photo Gallery</a></li>
 						<li><a href="#intro">About</a></li>
-						<li><a href="#freebies">Similar Sites</a></li>
+						<li><a href="#similarsites">Similar Sites</a></li>
 						<li><a href="#contact">Contact</a></li>
 					</ul>
 				</div>
