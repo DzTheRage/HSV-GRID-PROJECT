@@ -32,15 +32,15 @@
 		<div class="col-xl-10 col-xl-offset-2 col-lg-8 col-lg-offset-2 col-md-12 col-sm-12">
 			<div class="header-nav-wrapper">
 				<div class="logo">
-							<a href="index.php"><img src="img/hsvlogo2.png" class="mobilelogo" alt="home logo"></a>
-							</div>
+					<a href="index.php"><img src="img/hsvlogo2.png" class="mobilelogo" alt="home logo"></a>
+				</div>
 				<div class="primary-nav-wrapper">
 					<nav>
 						<ul class="primary-nav">
 							<li><a href="photogallery.php">Photo Gallery</a></li>
-							<li><a href="#intro">About</a></li>
-							<li><a href="#similarsites">Similar Sites</a></li>
-							<li><a href="#contact">Contact</a></li>
+							<li><a href="index.php#intro">About</a></li>
+							<li><a href="index.php#similarsites">Similar Sites</a></li>
+							<li><a href="index.php#contact">Contact</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -49,7 +49,7 @@
 				</div>
 			</div>
 		</div>
-	</div>
+		</div>
 	</div>
 	<div id="top">
 	<header class="hero">
@@ -327,7 +327,7 @@
 			</div>
 			</div>
 	<!-- SECTION: Intro -->
-	<section class="collective has-padding" id="intro">
+	<section class="collective has-padding" id="intro" name="intro">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-3">
@@ -380,7 +380,7 @@
 	</div>
 	<!-- END SECTION: Stats -->
 	<!-- SECTION: SIMILAR SITES-->
-	<section class="similarsites has-padding" id="similarsites">
+	<section class="similarsites has-padding" id="similarsites" name="similarsites">
 		<div class="container similarsites-intro">
 			<div class="row">
 				<div class="col-md-12">
@@ -481,7 +481,7 @@
 	</section>
 	<!-- END SECTION: similarsites -->
 	<!-- SECTION: CONTACT --->
-	<section class="similarsites" id="contact">
+	<section class="similarsites" id="contact" name="contact">
 		<div class="container similarsites-intro">
 			<div class="row">
 				<div class="col-md-12">

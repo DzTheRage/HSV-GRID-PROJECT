@@ -39,10 +39,10 @@
     // MySQL settings. You need to get this info from your web host.
     // 4.
     // Name of the database
-    define( 'K_DB_NAME', 'hsvgridp_db' );
+    define( 'K_DB_NAME', 'hsvgridp_db2' );
     // 5.
     // Database username
-    define( 'K_DB_USER', 'hsvgridp_scottyv' );
+    define( 'K_DB_USER', 'hsvgridp_scottyv2' );
     // 6.
     // Database password
     define( 'K_DB_PASSWORD', 'supfresh123' );
@@ -68,12 +68,12 @@
     // existing files in cache become useless but are not deleted immediately.
     // A purge routine gets executed at interval set here (in hours)
     // during which this deletion of stale files occurs.
-    define( 'K_CACHE_PURGE_INTERVAL', 24 );
+    define( 'K_CACHE_PURGE_INTERVAL', 0 );
 
     // 11.
     // Even if the cache does not become invalidated, as noted above, files in cache
     // are removed after this interval (set in hours).
-    define( 'K_MAX_CACHE_AGE', 7 * 24 ); // Default is 7 days
+    define( 'K_MAX_CACHE_AGE', 0 ); // Default is 7 days
 
     // 12.
     // Upload folder if not using the default upload folder within 'couch'.

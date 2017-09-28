@@ -207,6 +207,6 @@
 
 </html>
 <cms:else />
-	<cms:embed 'gridtest.html' />
+	<cms:embed 'gridtestc2.html' />
 </cms:if>
 <?php COUCH::invoke(); ?>

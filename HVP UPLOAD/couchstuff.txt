@@ -9,9 +9,9 @@ PW:supfresh123 (not my email pw btw)
 
 HVGP DB:
 
-hsvgridp_db
+hsvgridp_db2
 
 DB USER:
 
-hsvgridp_scottyv
+hsvgridp_scottyv2
 PW: supfresh123
