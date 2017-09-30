@@ -175,7 +175,6 @@
 				</div>
 				<div class="points-content">
 					<div class="point-content">
-						<p class="point-content__text">Featured Image:</p>
 						<h3 class="point-content__title"><cms:editable name='imagetitle_a1' type='text'>The Rupert Connection</cms:editable></h3>
 						<p class="point-content__subtitle"><cms:editable name='date_a1' type='text'>24th of February, 1927</cms:editable></p>
 						<p class="point-content__text"><cms:editable name='author_a1' type='text'>Sammy Binks</cms:editable></p>
@@ -535,7 +534,6 @@
 	<!-- JS CDNs -->
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.0/jquery-ui.min.js"></script>
-	<script src="http://vjs.zencdn.net/5.4.6/video.min.js"></script>
 	<!-- jQuery local fallback -->
 	<script>
 	window.jQuery || document.write('<script src="js/min/jquery-1.11.2.min.js"><\/script>')

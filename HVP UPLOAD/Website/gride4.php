@@ -135,7 +135,7 @@
 	<script src="js/min/jquery.waypoints.min.js"></script>
 	<script src="js/min/flickity.pkgd.min.js"></script>
 	<script src="js/min/scripts-min.js"></script>
-		<script src="js/imagesloaded.pkgd.min.js"></script>
+	<script src="js/imagesloaded.pkgd.min.js"></script>
 	<script src="js/masonry.pkgd.min.js"></script>
 	<script src="js/classie.js"></script>
 	<script src="js/main2.js"></script>
