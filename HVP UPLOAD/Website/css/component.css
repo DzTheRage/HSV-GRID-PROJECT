@@ -20,6 +20,7 @@
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
 	background-size: cover;
+	opacity:1;
 }
 
 .static {
@@ -75,16 +76,21 @@
 	fill: #355678;
 	-webkit-transform: scale3d(1.2,1.2,1);
 	transform: scale3d(1.2,1.2,1);
-	opacity:0.5;
+	opacity:1;
 }
 
 .point--hide {
+	opacity: 0.3;
+	pointer-events: none;
+	-webkit-transform: translate3d(0,10px,0);
+	transform: translate3d(0,10px,0);
+}
+.point--hide2 {
 	opacity: 0;
 	pointer-events: none;
 	-webkit-transform: translate3d(0,10px,0);
 	transform: translate3d(0,10px,0);
 }
-
 .points-tooltips,
 .points-content {
 	position: absolute;
@@ -139,7 +145,7 @@
 
 .points-content--open {
 	cursor: url(img/close.cur), pointer;
-	background: rgba(50,49,59,0.6);
+	background: rgba(50,49,59,0.5);
 	pointer-events: auto;
 }
 

@@ -204,6 +204,23 @@
 	/**
 	 * 
 	 */
+	/**
+	 * Hides the Point2.
+	 */
+	Point.prototype.hide2 = function() {
+		lunar.addClass(this.el, 'point--hide2');
+	};
+
+	/**
+	 * 
+	 */
+	Point.prototype.show2 = function() {
+		lunar.removeClass(this.el, 'point--hide2')
+	};
+
+	/**
+	 * 
+	 */
 	Point.prototype.pause = function() {
 		this.wrapper.removeEventListener('mousemove', this._throttleMousemove);
 	};
@@ -254,11 +271,11 @@
 	 */
 	PointsMap.prototype.options = {
 		// Maximum opacity that the background element of a Point can have when the point is active (mouse gets closer to it).
-		maxOpacityOnActive : 0.6,
+		maxOpacityOnActive : 0.8,
 		// The distance from the mouse pointer to a Point where the opacity of the background element is 0.
 		maxDistance : 100, 
 		// If viewportFactor is different than -1, then the maxDistance will be overwritten by [point´s parent width / viewportFactor]
-		viewportFactor : 9,
+		viewportFactor : 16,
 		// When the mouse is [activeOn]px away from one point, its image gets opacity = point.options.maxOpacity.
 		activeOn : 30
 	};
@@ -305,7 +322,7 @@
 			// Start mousemove event on Points.
 			self._pointsAction('resume');
 			// Show all points.
-			self._pointsAction('show');
+			self._pointsAction('show2');
 		};
 		this.pointsContentWrapper.addEventListener('click', this._closeContent);
 
@@ -357,7 +374,7 @@
 					self.currentPoint = pos;
 					lunar.removeClass(self.points[pos].el, 'point--active');
 					// Hide the current point (and all other points).
-					self._pointsAction('hide');
+					self._pointsAction('hide2');
 					// Hide tooltip.
 					self.tooltips[pos].classList.remove('point-tooltip--current');
 					// Stop mousemove event on Points.

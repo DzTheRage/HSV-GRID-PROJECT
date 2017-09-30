@@ -1,5 +1,5 @@
 <?php require_once( 'couch/cms.php' ); ?>
-<cms:template title='Grid C3' clonable='1'>
+<cms:template title='Grid C3' clonable='1' access_level='7'>
 	<cms:editable name='grid_image'
 				  type='image'
 				  />
@@ -64,13 +64,13 @@
 		</div>
 		</div>
 	</div>
+<!-- CONTENT START -->
 <div class="container-fluid">
 <div class="row">
 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
 	<!-- Contact Start -->
 	<div class="galleryhead wp4">
-		<h2>Grid C3</h2>
-		<p>See some of the great photos taken by the students of UAH Photography classes.</p>
+		<h2>Grid C4</h2>
 	</div>
 </div>
 </div>
@@ -135,10 +135,10 @@
 	<script src="js/min/jquery.waypoints.min.js"></script>
 	<script src="js/min/flickity.pkgd.min.js"></script>
 	<script src="js/min/scripts-min.js"></script>
-	<script src="js/imagesloaded.pkgd.min.js"></script>
+		<script src="js/imagesloaded.pkgd.min.js"></script>
 	<script src="js/masonry.pkgd.min.js"></script>
 	<script src="js/classie.js"></script>
-	<script src="js/main.js"></script>
+	<script src="js/main2.js"></script>
 	<script>
 		(function() {
 			var support = { transitions: Modernizr.csstransitions },

@@ -9,39 +9,36 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Synthetica HTML5/CSS3 Template</title>
-	<meta name="description" content="A free html template with Sketch design made with Bootstrap">
-	<meta name="keywords" content="free html template, bootstrap, ui kit, sass" />
-	<meta name="author" content="Codrops" />
+	<title>HSV GRID PROJECT</title>
+	<meta name="description" content="UAH Photography Grid Project">
+	<meta name="keywords" content="huntsville, grid project, UAH, UAH Photo" />
+	<meta name="author" content="ScottV Codrops" />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-	<link rel="shortcut icon" href="img/favicon/favicon.ico">
-	<!-- end favicon links -->
 	<link rel="stylesheet" href="css/bootstrap.min.css" />
 	<link rel="stylesheet" href="css/normalize.min.css">
 	<link rel="stylesheet" href="css/animate.min.css">
 	<link rel="stylesheet" href="css/flickity.min.css">
 	<link rel="stylesheet" href="css/styles.css">
 	<link rel="stylesheet" type="text/css" href="css/gridblock.css" />
+	<link rel="stylesheet" href="css/gallerymain.css">
 	<script src="js/modernizr-custom.js"></script>
 </head>
 
 <body>
-	<!--[if lt IE 8]>
-	<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-	<![endif]-->
-	<div class="container-fluid">
-		<div class="row">
+	<div class="container-fluid fixed widthNAV">
+		<div class="row navBGcolor">
+		<div class="col-xl-10 col-xl-offset-2 col-lg-8 col-lg-offset-2 col-md-12 col-sm-12">
 			<div class="header-nav-wrapper">
 				<div class="logo">
-					<a href="index.php"><img src="img/hsvlogo2.png" alt="Synthetica Freebie"></a>
+					<a href="index.php"><img src="img/hsvlogo2.png" class="mobilelogo" alt="home logo"></a>
 				</div>
 				<div class="primary-nav-wrapper">
 					<nav>
 						<ul class="primary-nav">
 							<li><a href="photogallery.php">Photo Gallery</a></li>
 							<li><a href="index.php#intro">About</a></li>
-							<li><a href="index.php#freebies">Similar Sites</a></li>
+							<li><a href="index.php#similarsites">Similar Sites</a></li>
 							<li><a href="index.php#contact">Contact</a></li>
 						</ul>
 					</nav>
@@ -51,14 +48,22 @@
 				</div>
 			</div>
 		</div>
+		</div>
 	</div>
 <!-- CONTENT START -->
-<div class="galleryhead">
-		<h2>GRID E1</h2>
+<div class="container-fluid">
+<div class="row">
+<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+	<!-- Contact Start -->
+	<div class="galleryhead wp4">
+		<h2>Grid E1</h2>
+		<p>See some of the great photos taken by the students of UAH Photography classes.</p>
 	</div>
+</div>
+</div>
+</div>
 		<div class="content">
 			<div class="grid">
-		<cms:pages masterpage='gridE1.php' >
 				<div class="grid__item" data-size="1280x961">
 					<a href="<cms:show grid_image/>" class="img-wrap"><img src="<cms:show grid_image/>" alt="img04" />
 						<div class="description description--grid"><cms:show image_title/>
@@ -74,8 +79,7 @@
 						</div>
 					</a>
 				</div>
-		</cms:pages>
-				</div>
+			</div>
 			<!-- /grid -->
 			<div class="preview">
 				<button class="action action--close"><i class="fa fa-times"></i><span class="text-hidden">Close</span></button>
@@ -84,16 +88,18 @@
 			<!-- /preview -->
 		</div>
 		<!-- /content -->
-    
 	<!-- SECTION: Footer -->
 	<footer class="has-padding footer-bg">
 		<div class="container">
-			<div class="row">
-				<div class="col-md-12 footer-nav">
+			<p class="footercopy">All photographs are copyright by the respective artists and may not be used without the express permission of the
+			photographer or the UAH Art Department. If you have more interest in the UAH Art Department, please visit
+			this link:<a class="footerlink" href="http://www.uah.edu/ahs/departments/art"> UAH ART DEPARTMENT</a></p>
+			<div class="row footer-ROW">
+				<div class="col-md-7 col-md-offset-2 col-lg-6 col-lg-offset-3 col-sm-10 col-sm-offset-2 footer-nav">
 					<ul class="footer-primary-nav">
 						<li><a href="photogallery.php">Photo Gallery</a></li>
 						<li><a href="index.php#intro">About</a></li>
-						<li><a href="index.php#freebies">Similar Sites</a></li>
+						<li><a href="index.php#similarsites">Similar Sites</a></li>
 						<li><a href="index.php#contact">Contact</a></li>
 					</ul>
 				</div>
@@ -116,10 +122,10 @@
 	<script src="js/min/jquery.waypoints.min.js"></script>
 	<script src="js/min/flickity.pkgd.min.js"></script>
 	<script src="js/min/scripts-min.js"></script>
-		<script src="js/imagesloaded.pkgd.min.js"></script>
+	<script src="js/imagesloaded.pkgd.min.js"></script>
 	<script src="js/masonry.pkgd.min.js"></script>
 	<script src="js/classie.js"></script>
-	<script src="js/main.js"></script>
+	<script src="js/main2.js"></script>
 	<script>
 		(function() {
 			var support = { transitions: Modernizr.csstransitions },

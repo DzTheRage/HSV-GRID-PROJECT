@@ -57,13 +57,13 @@
 	<!-- Contact Start -->
 	<div class="galleryhead wp4">
 		<h2>Grid C1</h2>
-		<p>See some of the great photos taken by the students of UAH Photography classes.</p>
 	</div>
 </div>
 </div>
 </div>
 		<div class="content">
 			<div class="grid">
+		<cms:pages masterpage='gridc1.php' >
 				<div class="grid__item" data-size="1280x961">
 					<a href="<cms:show grid_image/>" class="img-wrap"><img src="<cms:show grid_image/>" alt="img04" />
 						<div class="description description--grid"><cms:show image_title/>
@@ -79,7 +79,8 @@
 						</div>
 					</a>
 				</div>
-			</div>
+		</cms:pages>
+				</div>
 			<!-- /grid -->
 			<div class="preview">
 				<button class="action action--close"><i class="fa fa-times"></i><span class="text-hidden">Close</span></button>
@@ -88,6 +89,7 @@
 			<!-- /preview -->
 		</div>
 		<!-- /content -->
+    
 	<!-- SECTION: Footer -->
 	<footer class="has-padding footer-bg">
 		<div class="container">
@@ -122,7 +124,7 @@
 	<script src="js/min/jquery.waypoints.min.js"></script>
 	<script src="js/min/flickity.pkgd.min.js"></script>
 	<script src="js/min/scripts-min.js"></script>
-	<script src="js/imagesloaded.pkgd.min.js"></script>
+		<script src="js/imagesloaded.pkgd.min.js"></script>
 	<script src="js/masonry.pkgd.min.js"></script>
 	<script src="js/classie.js"></script>
 	<script src="js/main2.js"></script>

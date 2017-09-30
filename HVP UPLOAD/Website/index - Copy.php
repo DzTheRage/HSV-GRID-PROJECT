@@ -79,33 +79,33 @@
 			<!-- IMAGE MAP START --->
 		<main>
 			<section class="interactive-points" id="interactive-1" tabindex="0">
-				<img class="static" src="img/map2-min.jpg" alt="Map of HSV" />
+				<img class="static" src="img/map2.jpg" alt="Map of HSV" />
 				<div class="backgrounds hidemobile">
-					<div class="background__element" style="background-image: url(<cms:editable name='grida1_image' type='image' />);"></div>
-					<div class="background__element" style="background-image: url(<cms:editable name='grida2_image' type='image' />);"></div>
-					<div class="background__element" style="background-image: url(<cms:editable name='grida3_image' type='image' />);"></div>
-					<div class="background__element" style="background-image: url(<cms:editable name='grida4_image' type='image' />);"></div>
-					<div class="background__element" style="background-image: url(<cms:editable name='grida5_image' type='image' />);"></div>
-					<div class="background__element" style="background-image: url(<cms:editable name='gridb1_image' type='image' />);"></div>
-					<div class="background__element" style="background-image: url(<cms:editable name='gridb2_image' type='image' />);"></div>
-					<div class="background__element" style="background-image: url(<cms:editable name='gridb3_image' type='image' />);"></div>
-					<div class="background__element" style="background-image: url(<cms:editable name='gridb4_image' type='image' />);"></div>
-					<div class="background__element" style="background-image: url(<cms:editable name='gridb5_image' type='image' />);"></div>
-					<div class="background__element" style="background-image: url(<cms:editable name='gridc1_image' type='image' />);"></div>
-					<div class="background__element" style="background-image: url(<cms:editable name='gridc2_image' type='image' />);"></div>
-					<div class="background__element" style="background-image: url(<cms:editable name='gridc3_image' type='image' />);"></div>
-					<div class="background__element" style="background-image: url(<cms:editable name='gridc4_image' type='image' />);"></div>
-					<div class="background__element" style="background-image: url(<cms:editable name='gridc5_image' type='image' />);"></div>
-					<div class="background__element" style="background-image: url(<cms:editable name='gridd1_image' type='image' />);"></div>
-					<div class="background__element" style="background-image: url(<cms:editable name='gridd2_image' type='image' />);"></div>
-					<div class="background__element" style="background-image: url(<cms:editable name='gridd3_image' type='image' />);"></div>
-					<div class="background__element" style="background-image: url(<cms:editable name='gridd4_image' type='image' />);"></div>
-					<div class="background__element" style="background-image: url(<cms:editable name='gridd5_image' type='image' />);"></div>
-					<div class="background__element" style="background-image: url(<cms:editable name='gride1_image' type='image' />);"></div>
-					<div class="background__element" style="background-image: url(<cms:editable name='gride2_image' type='image' />);"></div>
-					<div class="background__element" style="background-image: url(<cms:editable name='gride3_image' type='image' />);"></div>
-					<div class="background__element" style="background-image: url(<cms:editable name='gride4_image' type='image' />);"></div>
-					<div class="background__element" style="background-image: url(<cms:editable name='gride5_image' type='image' />);"></div>
+					<div class="background__element" style="background-image: url(images/9.jpg)"></div>
+					<div class="background__element" style="background-image: url(images/2.jpg);"></div>
+					<div class="background__element" style="background-image: url(images/10.jpg);"></div>
+					<div class="background__element" style="background-image: url(images/4.jpg);"></div>
+					<div class="background__element" style="background-image: url(images/5.jpg);"></div>
+					<div class="background__element" style="background-image: url(images/6.jpg);"></div>
+					<div class="background__element" style="background-image: url(images/7.jpg);"></div>
+					<div class="background__element" style="background-image: url(images/8.jpg);"></div>
+					<div class="background__element" style="background-image: url(images/9.jpg);"></div>
+					<div class="background__element" style="background-image: url(images/10.jpg);"></div>
+					<div class="background__element" style="background-image: url(images/11.jpg);"></div>
+					<div class="background__element" style="background-image: url(images/1.jpg)"></div>
+					<div class="background__element" style="background-image: url(images/2.jpg);"></div>
+					<div class="background__element" style="background-image: url(images/9.jpg);"></div>
+					<div class="background__element" style="background-image: url(images/4.jpg);"></div>
+					<div class="background__element" style="background-image: url(images/5.jpg);"></div>
+					<div class="background__element" style="background-image: url(images/6.jpg);"></div>
+					<div class="background__element" style="background-image: url(images/7.jpg);"></div>
+					<div class="background__element" style="background-image: url(images/8.jpg);"></div>
+					<div class="background__element" style="background-image: url(images/9.jpg);"></div>
+					<div class="background__element" style="background-image: url(images/10.jpg);"></div>
+					<div class="background__element" style="background-image: url(images/11.jpg);"></div>
+					<div class="background__element" style="background-image: url(images/1.jpg)"></div>
+					<div class="background__element" style="background-image: url(images/2.jpg);"></div>
+					<div class="background__element" style="background-image: url(images/8.jpg);"></div>
 				</div>
 				<svg class="points" viewBox="0 0 1885 1080" width="100%" height="100%">
 				<path class="point"d="M566,190.554c51.163,0.807,67.47,0.985,168.227,0.311L733.921,18.02c-79.269,0-96.117,1.031-167.599,0.646"/>
