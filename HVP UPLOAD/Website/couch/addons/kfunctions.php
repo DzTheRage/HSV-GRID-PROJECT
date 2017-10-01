@@ -1,6 +1,6 @@
 <?php
 if ( !defined('K_COUCH_DIR') ) die(); // cannot be loaded directly
-
+require_once( K_COUCH_DIR.'addons/simple-access-control/simple-access-control.php' );
 //require_once( K_COUCH_DIR.'addons/cart/cart.php' );
 //require_once( K_COUCH_DIR.'addons/inline/inline.php' );
 //require_once( K_COUCH_DIR.'addons/extended/extended-folders.php' );
