@@ -24,6 +24,7 @@
 	<!-- MAP CSS -->
 	<link rel="stylesheet" type="text/css" href="css/component.css" />
 	<link rel="stylesheet" href="css/styles.css">
+	
 </head>
 
 <body>
@@ -320,7 +321,7 @@
 	</div>
 			<div class="container-fluid">
 			<div class="row">
-			<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 center view-more2">
+			<div class="col-xl-7 col-xl-offset-5 col-lg-7 col-lg-offset-5 col-md-7 col-md-offset-5 col-sm-7 col-sm-offset-5 col-xs-10 col-xs-offset-2 view-more2">
 			<a href="photogallery.php" class="gridlinks">VIEW PHOTO GALLERY</a>
 			</div>
 			</div>
