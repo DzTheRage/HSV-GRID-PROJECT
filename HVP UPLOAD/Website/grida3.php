@@ -1,24 +1,29 @@
 <?php require_once( 'couch/cms.php' ); ?>
-<cms:template title='Grid A3' clonable='1' access_level='7'>
-	<cms:editable name='grid_image'
-				  type='image'
-				  />
-	<cms:editable name='image_title' type='text' />
-	<cms:editable name='image_camera' type='text' />
-	<cms:editable name='image_focal' type='text' />
-	<cms:editable name='image_aperture' type='text' />
-	<cms:editable name='image_exposure' type='text' />
-	<cms:editable name='image_iso' type='text' />
+<cms:template title='Grid A3' clonable='1' dynamic_folders='1' gallery='1'>
+	   <cms:editable
+      name="gg_image"
+      label="Image"
+      desc="Upload your main image here"
+      width="500"
+      show_preview='1'
+      preview_height='200'
+      type="image"
+   />
+
+   <cms:editable
+      name="gg_thumb"
+      assoc_field="gg_image"
+      label="Image Thumbnail"
+      desc="Thumbnail of image above"
+      width='115'
+      height='115'
+      enforce_max='1'
+      type="thumbnail"
+   />
+   <cms:editable name='image_title' type='text' />
 </cms:template>
 <cms:if k_is_page >
 <!doctype html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
-<!--[if gt IE 8]><!-->
-<html class="no-js" lang="en-US">
-<!--<![endif]-->
-
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -78,8 +83,9 @@
 		<div class="content">
 			<div class="grid">
 				<div class="grid__item" data-size="1280x961">
-					<a href="<cms:show grid_image/>" class="img-wrap"><img src="<cms:show grid_image/>" alt="img04" />
-						<div class="description description--grid"><cms:show image_title/>
+					<a href="<cms:show gg_image />" class="img-wrap">
+						<img src="<cms:show gg_image />" id="img-<cms:show k_page_id />" onload="getExif('img-<cms:show k_page_id />')" />
+						<div class="description description--grid"><p class="imgtitle"><cms:show image_title/></p>
 						<div class="details">
 								<ul>
 									<li><i class="icon icon-camera"></i><span><cms:show image_camera/></span></li>

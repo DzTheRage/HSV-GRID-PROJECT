@@ -19,19 +19,6 @@
     text-align:center;
 }
 .galleryhead h2 {
-    color:black;
-    font-size: 5rem;
-    text-transform: uppercase;
-    font-weight: bold;
-    line-height: 1;
-    text-shadow: 
-    1px 0px 1px #ccc, 0px 1px 1px #eee, 
-    2px 1px 1px #ccc, 1px 2px 1px #eee,
-    3px 2px 1px #ccc, 2px 3px 1px #eee,
-    4px 3px 1px #ccc, 3px 4px 1px #eee,
-    5px 4px 1px #ccc, 4px 5px 1px #eee,
-    6px 5px 1px #ccc, 5px 6px 1px #eee,
-    7px 6px 1px #ccc;
 }
 hr {
     margin-top:0px;
@@ -201,7 +188,7 @@ hr {
 /* Close button */
 
 .action {
-	font-size: 1.5em;
+	font-size: 2.5em;
 	margin: 0;
 	padding: 0;
 	cursor: pointer;
@@ -253,6 +240,10 @@ h2 .title {
 .details {
 	max-width: 100%;
 	/* IE 10-11 bug flexbox */
+}
+.imgtitle {
+	font-size:0.75em;
+	color:white;
 }
 .details ul {
 	line-height: 1;
@@ -377,11 +368,6 @@ h2 .title {
 /* Media Queries */
 @media(max-width: 992px){
     .galleryhead h2 {
-    color:black;
-    font-size: 2rem;
-    text-transform: uppercase;
-    font-weight: bold;
-    line-height: 1;
 }
 .action--close {
     position: fixed;
@@ -415,9 +401,5 @@ h2 .title {
 }
 @media(max-width: 992px){
     .galleryhead h2 {
-    color:black;
-    font-size: 3rem;
-    text-transform: uppercase;
-    font-weight: bold;
-    line-height: 1;
+
 }

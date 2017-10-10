@@ -15,22 +15,14 @@
     padding:40px;
 }
 .galleryhead h2 {
-    color:#355678;
-    font-size: 5rem;
-    text-transform: uppercase;
-    font-weight: bold;
-    line-height: 1;
-    text-shadow: 
-    1px 0px 1px #ccc, 0px 1px 1px #eee, 
-    2px 1px 1px #ccc, 1px 2px 1px #eee,
-    3px 2px 1px #ccc, 2px 3px 1px #eee,
-    4px 3px 1px #ccc, 3px 4px 1px #eee,
-    5px 4px 1px #ccc, 4px 5px 1px #eee,
-    6px 5px 1px #ccc, 5px 6px 1px #eee,
-    7px 6px 1px #ccc;
+color: #355678;
+text-align: center;
+letter-spacing: 10px;
+font-size: 25px;
+text-transform: uppercase;
 }
 .galleryhead p {
-    font-size: 1.3rem;
+    font-size: 20px;
     margin-top:25px;
     font-weight:100;
     color:black;
@@ -54,8 +46,6 @@ hr {
 }
 .flex-wrapper .inner {
     display: flex;
-    align-items: center;
-    justify-content: center;
     padding: 0 10px 50px;
     position: absolute;
     top: 0;
@@ -66,7 +56,7 @@ hr {
     transition: background-color .4s;
 }
 .flex-wrapper h2{
-    font-size: 7rem;
+    font-size: 5rem;
     margin:0;
     text-transform: uppercase;
     font-weight:bold;
@@ -74,6 +64,7 @@ hr {
     text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.9);
     transform: matrix3D(0.75, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0,1);    
     transition: font-size .4s .1s ease;
+    padding-top:20px;
 }
 .flex-wrapper .visible p{
     font-size: 1.5rem;
@@ -330,10 +321,7 @@ background-size:cover;
     overflow-x: hidden;
     }
     .galleryhead h2 {
-    font-size: 4rem;
-    text-transform: uppercase;
-    font-weight: bold;
-    line-height: 1;
+
     }
     .galleryhead p {
     font-size: 1.2rem;
@@ -344,10 +332,7 @@ background-size:cover;
 }
 @media(max-width: 600px){
     .galleryhead h2 {
-     font-size: 3rem;
-    text-transform: uppercase;
-    font-weight: bold;
-    line-height: 1;
+
 }
     .flex-wrapper {
     height: 180vh;

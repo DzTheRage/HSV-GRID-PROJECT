@@ -23,6 +23,32 @@
 	<link rel="stylesheet" type="text/css" href="css/gridblock.css" />
 	<link rel="stylesheet" href="css/gallerymain.css">
 	<script src="js/modernizr-custom.js"></script>
+    <script src="<cms:show k_site_link />js/exif.js"></script>
+    <script>
+        function getExif(id) {
+            var img = document.getElementById(id);
+
+            EXIF.getData(img, function() {
+                var model = EXIF.getTag(this, "Model");
+                var modelDataSpan = document.getElementById('model-'+id);
+                modelDataSpan.innerHTML = `${model}`;
+				var focal = EXIF.getTag(this, "FocalLength");
+                var focalDataSpan = document.getElementById('focal-'+id);
+                focalDataSpan.innerHTML = `${focal}`;
+				var aperture = EXIF.getTag(this, "ApertureValue");
+				var aperturesmall = aperture.toFixed(2);
+                var apertureDataSpan = document.getElementById('aperture-'+id);
+               apertureDataSpan.innerHTML = `${aperturesmall}`;
+				var exposure = EXIF.getTag(this, "ExposureTime");
+				var exposuresmall = exposure.toFixed(2);
+                var exposureDataSpan = document.getElementById('exposure-'+id);
+                exposureDataSpan.innerHTML = `${exposuresmall}`;
+				var iso = EXIF.getTag(this, "ISOSpeedRatings");
+                var isoDataSpan = document.getElementById('iso-'+id);
+                isoDataSpan.innerHTML = `${iso}`;
+            });
+        }
+      </script>
 </head>
 
 <body>
@@ -65,15 +91,16 @@
 			<div class="grid">
 		<cms:pages masterpage='gridc2.php' >
 				<div class="grid__item" data-size="1280x961">
-					<a href="<cms:show grid_image/>" class="img-wrap"><img src="<cms:show grid_image/>" alt="img04" />
-						<div class="description description--grid"><cms:show image_title/>
+					<a href="<cms:show gg_image />" class="img-wrap">
+                        <img src="<cms:show gg_image />" id="img-<cms:show k_page_id />" onload="getExif('img-<cms:show k_page_id />')" />
+						<div class="description description--grid"><p class="imgtitle"><cms:show image_title/></p>
 						<div class="details">
 								<ul>
-									<li><i class="icon icon-camera"></i><span><cms:show image_camera/></span></li>
-									<li><i class="icon icon-focal_length"></i><span><cms:show image_focal/></span></li>
-									<li><i class="icon icon-aperture"></i><span><cms:show image_aperture/></span></li>
-									<li><i class="icon icon-exposure_time"></i><span><cms:show image_exposure/></span></li>
-									<li><i class="icon icon-iso"></i><span><cms:show image_iso/></span></li>
+									<li><i class="icon icon-camera"></i><span id="model-img-<cms:show k_page_id />"></span></li>
+									<li><i class="icon icon-focal_length"></i><span id="focal-img-<cms:show k_page_id />"></span></li>
+									<li><i class="icon icon-aperture"></i><span id="aperture-img-<cms:show k_page_id />"></span></li>
+									<li><i class="icon icon-exposure_time"></i><span id="exposure-img-<cms:show k_page_id />"></span></li>
+									<li><i class="icon icon-iso"></i><span id="iso-img-<cms:show k_page_id />"></span></li>
 								</ul>
 							</div>
 						</div>
@@ -124,7 +151,7 @@
 	<script src="js/min/jquery.waypoints.min.js"></script>
 	<script src="js/min/flickity.pkgd.min.js"></script>
 	<script src="js/min/scripts-min.js"></script>
-		<script src="js/imagesloaded.pkgd.min.js"></script>
+	<script src="js/imagesloaded.pkgd.min.js"></script>
 	<script src="js/masonry.pkgd.min.js"></script>
 	<script src="js/classie.js"></script>
 	<script src="js/main2.js"></script>

@@ -142,7 +142,7 @@
 
     // 24.
     // Set the following to '1' if you wish to extract EXIF data from images uploaded to Gallery
-    define( 'K_EXTRACT_EXIF_DATA', 0 );
+    define( 'K_EXTRACT_EXIF_DATA', 1 );
 
     // 25.
     // Set the following to '1' if you wish to use KCFinder as the default file-browser (will require PHP5 and modern browsers)

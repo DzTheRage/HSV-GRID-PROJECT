@@ -176,129 +176,79 @@
 				</div>
 				<div class="points-content">
 					<div class="point-content">
-						<h3 class="point-content__title"><cms:editable name='imagetitle_a1' type='text'>The Rupert Connection</cms:editable></h3>
-						<p class="point-content__subtitle"><cms:editable name='date_a1' type='text'>24th of February, 1927</cms:editable></p>
-						<p class="point-content__text"><cms:editable name='author_a1' type='text'>Sammy Binks</cms:editable></p>
+					<a href="grida1.php" class="gridlinks">Visit Grid A1</a>
 					</div>
 					<div class="point-content">
-						<h3 class="point-content__title"><cms:editable name='imagetitle_a2' type='text'>The Rupert Connection</cms:editable></h3>
-						<p class="point-content__subtitle"><cms:editable name='date_a2' type='text'>24th of February, 1927</cms:editable></p>
-						<p class="point-content__text"><cms:editable name='author_a2' type='text'>Sammy Binks</cms:editable></p>
+					<a href="grida2.php" class="gridlinks">Visit Grid A2</a>
 					</div>
 					<div class="point-content">
-						<h3 class="point-content__title"><cms:editable name='imagetitle_a3' type='text'>The Rupert Connection</cms:editable></h3>
-						<p class="point-content__subtitle"><cms:editable name='date_a3' type='text'>24th of February, 1927</cms:editable></p>
-						<p class="point-content__text"><cms:editable name='author_a3' type='text'>Sammy Binks</cms:editable></p>
+					<a href="grida3.php" class="gridlinks">Visit Grid A3</a>
 					</div>
 					<div class="point-content">
-						<h3 class="point-content__title"><cms:editable name='imagetitle_a4' type='text'>The Rupert Connection</cms:editable></h3>
-						<p class="point-content__subtitle"><cms:editable name='date_a4' type='text'>24th of February, 1927</cms:editable></p>
-						<p class="point-content__text"><cms:editable name='author_a4' type='text'>Sammy Binks</cms:editable></p>
+					<a href="grida4.php" class="gridlinks">Visit Grid A4</a>
 					</div>
 					<div class="point-content">
-						<h3 class="point-content__title"><cms:editable name='imagetitle_a5' type='text'>The Rupert Connection</cms:editable></h3>
-						<p class="point-content__subtitle"><cms:editable name='date_a5' type='text'>24th of February, 1927</cms:editable></p>
-						<p class="point-content__text"><cms:editable name='author_a5' type='text'>Sammy Binks</cms:editable></p>
+					<a href="grida5.php" class="gridlinks">Visit Grid A5</a>
 					</div>
 					<div class="point-content">
-						<h3 class="point-content__title"><cms:editable name='imagetitle_b1' type='text'>The Rupert Connection</cms:editable></h3>
-						<p class="point-content__subtitle"><cms:editable name='date_b1' type='text'>24th of February, 1927</cms:editable></p>
-						<p class="point-content__text"><cms:editable name='author_b1' type='text'>Sammy Binks</cms:editable></p>
+					<a href="gridb1.php" class="gridlinks">Visit Grid B1</a>
 					</div>
 					<div class="point-content">
-						<h3 class="point-content__title"><cms:editable name='imagetitle_b2' type='text'>The Rupert Connection</cms:editable></h3>
-						<p class="point-content__subtitle"><cms:editable name='date_b2' type='text'>24th of February, 1927</cms:editable></p>
-						<p class="point-content__text"><cms:editable name='author_b2' type='text'>Sammy Binks</cms:editable></p>
+					<a href="gridb2.php" class="gridlinks">Visit Grid B2</a>
 					</div>
 					<div class="point-content">
-						<h3 class="point-content__title"><cms:editable name='imagetitle_b3' type='text'>The Rupert Connection</cms:editable></h3>
-						<p class="point-content__subtitle"><cms:editable name='date_b3' type='text'>24th of February, 1927</cms:editable></p>
-						<p class="point-content__text"><cms:editable name='author_b3' type='text'>Sammy Binks</cms:editable></p>
+					<a href="gridb3.php" class="gridlinks">Visit Grid B3</a>
 					</div>
 					<div class="point-content">
-						<h3 class="point-content__title"><cms:editable name='imagetitle_b4' type='text'>The Rupert Connection</cms:editable></h3>
-						<p class="point-content__subtitle"><cms:editable name='date_b4' type='text'>24th of February, 1927</cms:editable></p>
-						<p class="point-content__text"><cms:editable name='author_b4' type='text'>Sammy Binks</cms:editable></p>
+					<a href="gridb4.php" class="gridlinks">Visit Grid B4</a>
 					</div>
 					<div class="point-content">
-						<h3 class="point-content__title"><cms:editable name='imagetitle_b5' type='text'>The Rupert Connection</cms:editable></h3>
-						<p class="point-content__subtitle"><cms:editable name='date_b5' type='text'>24th of February, 1927</cms:editable></p>
-						<p class="point-content__text"><cms:editable name='author_b5' type='text'>Sammy Binks</cms:editable></p>
+					<a href="gridb5.php" class="gridlinks">Visit Grid B5</a>
 					</div>
 					<div class="point-content">
-						<h3 class="point-content__title"><cms:editable name='imagetitle_c1' type='text'>The Rupert Connection</cms:editable></h3>
-						<p class="point-content__subtitle"><cms:editable name='date_c1' type='text'>24th of February, 1927</cms:editable></p>
-						<p class="point-content__text"><cms:editable name='author_c1' type='text'>Sammy Binks</cms:editable></p>
+					<a href="gridc1.php" class="gridlinks">Visit Grid C1</a>
 					</div>
 					<div class="point-content">
-						<h3 class="point-content__title"><cms:editable name='imagetitle_c2' type='text'>The Rupert Connection</cms:editable></h3>
-						<p class="point-content__subtitle"><cms:editable name='date_c2' type='text'>24th of February, 1927</cms:editable></p>
-						<p class="point-content__text"><cms:editable name='author_c2' type='text'>Sammy Binks</cms:editable></p>
+					<a href="gridc2.php" class="gridlinks">Visit Grid C2</a>
 					</div>
 					<div class="point-content">
-						<h3 class="point-content__title"><cms:editable name='imagetitle_c3' type='text'>The Rupert Connection</cms:editable></h3>
-						<p class="point-content__subtitle"><cms:editable name='date_c3' type='text'>24th of February, 1927</cms:editable></p>
-						<p class="point-content__text"><cms:editable name='author_c3' type='text'>Sammy Binks</cms:editable></p>
+					<a href="gridc3.php" class="gridlinks">Visit Grid C3</a>
 					</div>
 					<div class="point-content">
-						<h3 class="point-content__title"><cms:editable name='imagetitle_c4' type='text'>The Rupert Connection</cms:editable></h3>
-						<p class="point-content__subtitle"><cms:editable name='date_c4' type='text'>24th of February, 1927</cms:editable></p>
-						<p class="point-content__text"><cms:editable name='author_c4' type='text'>Sammy Binks</cms:editable></p>
+					<a href="gridc4.php" class="gridlinks">Visit Grid C4</a>
 					</div>
 					<div class="point-content">
-						<h3 class="point-content__title"><cms:editable name='imagetitle_c5' type='text'>The Rupert Connection</cms:editable></h3>
-						<p class="point-content__subtitle"><cms:editable name='date_c5' type='text'>24th of February, 1927</cms:editable></p>
-						<p class="point-content__text"><cms:editable name='author_c5' type='text'>Sammy Binks</cms:editable></p>
+					<a href="gridc5.php" class="gridlinks">Visit Grid C5</a>
 					</div>
 					<div class="point-content">
-						<h3 class="point-content__title"><cms:editable name='imagetitle_d1' type='text'>The Rupert Connection</cms:editable></h3>
-						<p class="point-content__subtitle"><cms:editable name='date_d1' type='text'>24th of February, 1927</cms:editable></p>
-						<p class="point-content__text"><cms:editable name='author_d1' type='text'>Sammy Binks</cms:editable></p>
+					<a href="gridd1.php" class="gridlinks">Visit Grid D1</a>
 					</div>
 					<div class="point-content">
-						<h3 class="point-content__title"><cms:editable name='imagetitle_d2' type='text'>The Rupert Connection</cms:editable></h3>
-						<p class="point-content__subtitle"><cms:editable name='date_d2' type='text'>24th of February, 1927</cms:editable></p>
-						<p class="point-content__text"><cms:editable name='author_d2' type='text'>Sammy Binks</cms:editable></p>
+					<a href="gridd2.php" class="gridlinks">Visit Grid D2</a>
 					</div>
 					<div class="point-content">
-						<h3 class="point-content__title"><cms:editable name='imagetitle_d3' type='text'>The Rupert Connection</cms:editable></h3>
-						<p class="point-content__subtitle"><cms:editable name='date_d3' type='text'>24th of February, 1927</cms:editable></p>
-						<p class="point-content__text"><cms:editable name='author_d3' type='text'>Sammy Binks</cms:editable></p>
+					<a href="gridd3.php" class="gridlinks">Visit Grid D3</a>
 					</div>
 					<div class="point-content">
-						<h3 class="point-content__title"><cms:editable name='imagetitle_d4' type='text'>The Rupert Connection</cms:editable></h3>
-						<p class="point-content__subtitle"><cms:editable name='date_d4' type='text'>24th of February, 1927</cms:editable></p>
-						<p class="point-content__text"><cms:editable name='author_d4' type='text'>Sammy Binks</cms:editable></p>
+					<a href="gridd4.php" class="gridlinks">Visit Grid D4</a>
 					</div>
 					<div class="point-content">
-						<h3 class="point-content__title"><cms:editable name='imagetitle_d5' type='text'>The Rupert Connection</cms:editable></h3>
-						<p class="point-content__subtitle"><cms:editable name='date_d5' type='text'>24th of February, 1927</cms:editable></p>
-						<p class="point-content__text"><cms:editable name='author_d5' type='text'>Sammy Binks</cms:editable></p>
+					<a href="gridd5.php" class="gridlinks">Visit Grid D5</a>
 					</div>
 					<div class="point-content">
-						<h3 class="point-content__title"><cms:editable name='imagetitle_e1' type='text'>The Rupert Connection</cms:editable></h3>
-						<p class="point-content__subtitle"><cms:editable name='date_e1' type='text'>24th of February, 1927</cms:editable></p>
-						<p class="point-content__text"><cms:editable name='author_e1' type='text'>Sammy Binks</cms:editable></p>
+					<a href="gride1.php" class="gridlinks">Visit Grid E1</a>
 					</div>
 					<div class="point-content">
-						<h3 class="point-content__title"><cms:editable name='imagetitle_e2' type='text'>The Rupert Connection</cms:editable></h3>
-						<p class="point-content__subtitle"><cms:editable name='date_e2' type='text'>24th of February, 1927</cms:editable></p>
-						<p class="point-content__text"><cms:editable name='author_e2' type='text'>Sammy Binks</cms:editable></p>
+					<a href="gride2.php" class="gridlinks">Visit Grid E2</a>
 					</div>
 					<div class="point-content">
-						<h3 class="point-content__title"><cms:editable name='imagetitle_e3' type='text'>The Rupert Connection</cms:editable></h3>
-						<p class="point-content__subtitle"><cms:editable name='date_e3' type='text'>24th of February, 1927</cms:editable></p>
-						<p class="point-content__text"><cms:editable name='author_e3' type='text'>Sammy Binks</cms:editable></p>
+					<a href="gride3.php" class="gridlinks">Visit Grid E3</a>
 					</div>
 					<div class="point-content">
-						<h3 class="point-content__title"><cms:editable name='imagetitle_e4' type='text'>The Rupert Connection</cms:editable></h3>
-						<p class="point-content__subtitle"><cms:editable name='date_e4' type='text'>24th of February, 1927</cms:editable></p>
-						<p class="point-content__text"><cms:editable name='author_e4' type='text'>Sammy Binks</cms:editable></p>
+					<a href="gride4.php" class="gridlinks">Visit Grid E4</a>
 					</div>
 					<div class="point-content">
-						<h3 class="point-content__title"><cms:editable name='imagetitle_e5' type='text'>The Rupert Connection</cms:editable></h3>
-						<p class="point-content__subtitle"><cms:editable name='date_e5' type='text'>24th of February, 1927</cms:editable></p>
-						<p class="point-content__text"><cms:editable name='author_e5' type='text'>Sammy Binks</cms:editable></p>
+					<a href="gride5.php" class="gridlinks">Visit Grid E5</a>
 					</div>
 				</div>
 			</section>

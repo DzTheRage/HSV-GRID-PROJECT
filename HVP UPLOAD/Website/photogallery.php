@@ -57,7 +57,6 @@
 	<!-- Contact Start -->
 	<div class="galleryhead">
 		<h2>Grid Gallery</h2>
-		<p>See some of the great photos taken by the students of UAH Photography classes.</p>
 	</div>
 </div>
 </div>
