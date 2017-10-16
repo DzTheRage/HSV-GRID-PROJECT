@@ -797,6 +797,7 @@ background-color:#355678;
 
 .fixed {
     position: fixed;
+    top:0;
     z-index: 999;
 }
 .mobilelogo {

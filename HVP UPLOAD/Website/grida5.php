@@ -50,7 +50,7 @@
 		<div class="col-xl-10 col-xl-offset-2 col-lg-8 col-lg-offset-2 col-md-12 col-sm-12">
 			<div class="header-nav-wrapper">
 				<div class="logo">
-					<a href="index.php"><img src="img/hsvlogo2.png" class="mobilelogo" alt="home logo"></a>
+					<a href="index.php"><img src="https://i.imgur.com/PvQZx7W.png" class="mobilelogo" alt="home logo"></a>
 				</div>
 				<div class="primary-nav-wrapper">
 					<nav>

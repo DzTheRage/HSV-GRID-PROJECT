@@ -14,7 +14,7 @@
 	<meta name="keywords" content="huntsville, grid project, UAH, UAH Photo" />
 	<meta name="author" content="ScottV Codrops" />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/bootstrap.min.css" />
 	<link rel="stylesheet" href="css/normalize.min.css">
 	<link rel="stylesheet" href="css/animate.min.css">
@@ -23,6 +23,7 @@
 	<link rel="stylesheet" type="text/css" href="css/gridblock.css" />
 	<link rel="stylesheet" href="css/gallerymain.css">
 	<script src="js/modernizr-custom.js"></script>
+	<script src="js/moment.js"></script>
     <script src="<cms:show k_site_link />js/exif.js"></script>
     <script>
         function getExif(id) {
@@ -43,9 +44,15 @@
 				var exposuresmall = exposure.toFixed(2);
                 var exposureDataSpan = document.getElementById('exposure-'+id);
                 exposureDataSpan.innerHTML = `${exposuresmall}`;
-				var iso = EXIF.getTag(this, "ISOSpeedRatings");
+				var iso = EXIF.getTag(this, "DateTimeOriginal");
                 var isoDataSpan = document.getElementById('iso-'+id);
-                isoDataSpan.innerHTML = `${iso}`;
+				function parseDate(s) {
+				var b = s.split(/\D/);
+				return new Date(b[0],b[1]-1,b[2],b[3],b[4],b[5]);
+				}
+				var why = parseDate(iso);
+				var ok = moment(why).format("MMM Do YYYY");
+				isoDataSpan.innerHTML = `${ok}`;
             });
         }
       </script>
@@ -57,7 +64,7 @@
 		<div class="col-xl-10 col-xl-offset-2 col-lg-8 col-lg-offset-2 col-md-12 col-sm-12">
 			<div class="header-nav-wrapper">
 				<div class="logo">
-					<a href="index.php"><img src="img/hsvlogo2.png" class="mobilelogo" alt="home logo"></a>
+					<a href="index.php"><img src="https://i.imgur.com/PvQZx7W.png" class="mobilelogo" alt="home logo"></a>
 				</div>
 				<div class="primary-nav-wrapper">
 					<nav>
@@ -81,7 +88,7 @@
 <div class="row">
 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
 	<!-- Contact Start -->
-	<div class="galleryhead wp4">
+	<div class="galleryhead">
 		<h2>Grid E5</h2>
 	</div>
 </div>
@@ -100,8 +107,9 @@
 									<li><i class="icon icon-focal_length"></i><span id="focal-img-<cms:show k_page_id />"></span></li>
 									<li><i class="icon icon-aperture"></i><span id="aperture-img-<cms:show k_page_id />"></span></li>
 									<li><i class="icon icon-exposure_time"></i><span id="exposure-img-<cms:show k_page_id />"></span></li>
-									<li><i class="icon icon-iso"></i><span id="iso-img-<cms:show k_page_id />"></span></li>
+									<li><i class="fa fa-clock-o" aria-hidden="true"></i><span id="iso-img-<cms:show k_page_id />"></span></li>
 								</ul>
+								<p>- Grid E5 -</p>
 							</div>
 						</div>
 					</a>
@@ -139,15 +147,9 @@
 	<!-- JS CDNs -->
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.0/jquery-ui.min.js"></script>
-	<script src="http://vjs.zencdn.net/5.4.6/video.min.js"></script>
-	<!-- jQuery local fallback -->
-	<script>
-	window.jQuery || document.write('<script src="js/min/jquery-1.11.2.min.js"><\/script>')
-	</script>
 	<!-- JS Locals -->
 	<script src="js/min/bootstrap.min.js"></script>
 	<script src="js/min/modernizr-2.8.3-respond-1.4.2.min.js"></script>
-	<script src="js/min/retina.min.js"></script>
 	<script src="js/min/jquery.waypoints.min.js"></script>
 	<script src="js/min/flickity.pkgd.min.js"></script>
 	<script src="js/min/scripts-min.js"></script>

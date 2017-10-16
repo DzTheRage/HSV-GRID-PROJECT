@@ -103,21 +103,25 @@
 		this.options.onInit(this);
 
 		var self = this;
-		// init masonry after all images are loaded
-		imagesLoaded( this.gridEl, function() {
-			// initialize masonry
-			new Masonry(self.gridEl, {
-				itemSelector: '.grid__item',
-				isFitWidth : true
-			});
-			// show grid after all images (thumbs) are loaded
-			classie.add(self.gridEl, 'grid--loaded');
-			// init/bind events
+		// init masonry 
+		var msnry = new Masonry(self.gridEl, {
+		itemSelector: '.grid__item',
+		isFitWidth : true
+		});
+		imagesLoaded(self.gridEl).on( 'progress', function() {
+		// show grid 
+		classie.add(self.gridEl, 'grid--loaded');
+		// RELAYOUT
+		msnry.layout();
+		});
+		// init/bind events after loaded
 			self._initEvents();
-			// create the large image and append it to the DOM
-			self._setOriginal();
 			// create the clone image and append it to the DOM
 			self._setClone();
+			// create the large image and append it to the DOM
+			self._setOriginal();	
+		imagesLoaded( this.gridEl, function() {
+
 		});
 	};
 

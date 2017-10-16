@@ -11,12 +11,11 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>HSV GRID PROJECT</title>
-	<meta name="description" content="UAH Photography Grid Project">
-	<meta name="keywords" content="huntsville, grid project, UAH, UAH Photo" />
+	<title>HSV GRID PROJECT - Photo Gallery</title>
+	<meta name="description" content="HSV Grid Project Photo Gallery">
+	<meta name="keywords" content="huntsville, grid project, UAH, UAH Photo, Photo Gallery" />
 	<meta name="author" content="ScottV Codrops" />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/bootstrap.min.css" />
 	<link rel="stylesheet" href="css/normalize.min.css">
 	<link rel="stylesheet" href="css/animate.min.css">
@@ -32,7 +31,7 @@
 		<div class="col-xl-10 col-xl-offset-2 col-lg-8 col-lg-offset-2 col-md-12 col-sm-12">
 			<div class="header-nav-wrapper">
 				<div class="logo">
-					<a href="index.php"><img src="img/hsvlogo2.png" class="mobilelogo" alt="home logo"></a>
+					<a href="index.php"><img src="https://i.imgur.com/PvQZx7W.png" class="mobilelogo" alt="home logo"></a>
 				</div>
 				<div class="primary-nav-wrapper">
 					<nav>
@@ -376,17 +375,10 @@
 	<!-- JS CDNs -->
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.0/jquery-ui.min.js"></script>
-	<script src="http://vjs.zencdn.net/5.4.6/video.min.js"></script>
-	<!-- jQuery local fallback -->
-	<script>
-	window.jQuery || document.write('<script src="js/min/jquery-1.11.2.min.js"><\/script>')
-	</script>
 	<!-- JS Locals -->
 	<script src="js/min/bootstrap.min.js"></script>
 	<script src="js/min/modernizr-2.8.3-respond-1.4.2.min.js"></script>
-	<script src="js/min/retina.min.js"></script>
 	<script src="js/min/jquery.waypoints.min.js"></script>
-	<script src="js/min/flickity.pkgd.min.js"></script>
 	<script src="js/min/scripts-min.js"></script>
 	<script src="js/imagesloaded.pkgd.min.js"></script>
 </body>

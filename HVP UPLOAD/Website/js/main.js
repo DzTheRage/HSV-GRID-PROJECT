@@ -277,7 +277,7 @@
 		// If viewportFactor is different than -1, then the maxDistance will be overwritten by [point´s parent width / viewportFactor]
 		viewportFactor : 16,
 		// When the mouse is [activeOn]px away from one point, its image gets opacity = point.options.maxOpacity.
-		activeOn : 30
+		activeOn : 60
 	};
 
 	/**

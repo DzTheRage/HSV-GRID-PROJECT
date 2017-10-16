@@ -12,8 +12,8 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>HSV GRID PROJECT</title>
-	<meta name="description" content="UAH Photography Grid Project">
-	<meta name="keywords" content="huntsville, grid project, UAH, UAH Photo, hsv grid project"/>
+	<meta name="description" content="UAH Photography Grid Project - Home">
+	<meta name="keywords" content="huntsville, grid project, UAH, UAH Photo, hsv grid project, home"/>
 	<meta name="author" content="ScottV" />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="css/bootstrap.min.css" />
@@ -33,7 +33,7 @@
 		<div class="col-xl-10 col-xl-offset-2 col-lg-8 col-lg-offset-2 col-md-12 col-sm-12">
 			<div class="header-nav-wrapper">
 				<div class="logo">
-					<a href="index.php"><img src="img/hsvlogo2.png" class="mobilelogo" alt="home logo"></a>
+					<a href="index.php"><img src="https://i.imgur.com/PvQZx7W.png" class="mobilelogo" alt="home logo"></a>
 				</div>
 				<div class="primary-nav-wrapper">
 					<nav>
@@ -73,7 +73,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="container-fluid hidemobile wp4">
+			<div class="container-fluid hidemobile">
 					<div class="row">
 						<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
 						<hr>
@@ -254,10 +254,10 @@
 			</section>
 		</main>
 <!-- MAP END -->
-					</div>
-						</div>
-					</div>
-			<div class="container mobileFILLER wp4">
+		</div>
+	</div>
+</div>
+			<div class="container mobileFILLER">
 			<div class="row">
 			<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
 			<img class="static" src="img/map4.jpg" alt="Map of HSV" />
@@ -266,7 +266,6 @@
 			</div>
 				</div>
 			</div>
-		</div>
 	</header>
 	</div>
 			<div class="container-fluid">
@@ -306,7 +305,7 @@
 	<!-- SECTION: Stats -->
 	<div class="stats has-padding-tall" style="background-image:url(<cms:editable name='bg_stats' type='image' />);">
 		<div class="container">
-			<div class="row wp4">
+			<div class="row">
 				<div class="col-md-6 col-sm-6 stats-container">
 					<i class="fa fa-camera fa-4x" aria-hidden="true"></i>
 					<div class="stats-wrapper">
@@ -451,12 +450,13 @@
 				</div>
 			</div>
 		</div>
+	</section>
 	<!-- END SECTION: CONTACT -->
 	<!-- SECTION: Get started -->
 	<section style="height:400px;" class="get-started has-padding text-center" id="get-started" style="background-image:url(<cms:editable name='bg_thanks_for_visitng' type='image' />);">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-12 wp4">
+				<div class="col-md-12">
 					<h2>THANKS FOR VISITING THE HSV GRID PROJECT!</h2>
 				</div>
 			</div>
@@ -485,13 +485,13 @@
 	<!-- JS CDNs -->
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.0/jquery-ui.min.js"></script>
-	<!-- jQuery local fallback -->
-	<script>
-	window.jQuery || document.write('<script src="js/min/jquery-1.11.2.min.js"><\/script>')
-	</script>
 	<!-- JS Locals -->
+	<script src="js/min/bootstrap.min.js"></script>
+	<script src="js/min/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+	<script src="js/min/jquery.waypoints.min.js"></script>
+	<script src="js/min/scripts-min.js"></script>
+	<script src="js/imagesloaded.pkgd.min.js"></script>
 	<script src="js/lunar.js"></script>
-		<script src="js/imagesloaded.pkgd.min.js"></script>
 		<script src="js/main.js"></script>
 		<script>
 		(function() {
@@ -504,12 +504,6 @@
 			});
 		})();
 		</script>
-	<script src="js/min/bootstrap.min.js"></script>
-	<script src="js/min/modernizr-2.8.3-respond-1.4.2.min.js"></script>
-	<script src="js/min/retina.min.js"></script>
-	<script src="js/min/jquery.waypoints.min.js"></script>
-	<script src="js/min/flickity.pkgd.min.js"></script>
-	<script src="js/min/scripts-min.js"></script>
 </body>
 
 </html>
