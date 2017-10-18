@@ -24,7 +24,6 @@
 	<!-- MAP CSS -->
 	<link rel="stylesheet" type="text/css" href="css/component.css" />
 	<link rel="stylesheet" href="css/styles.css">
-	
 </head>
 
 <body>
@@ -33,7 +32,7 @@
 		<div class="col-xl-10 col-xl-offset-2 col-lg-8 col-lg-offset-2 col-md-12 col-sm-12">
 			<div class="header-nav-wrapper">
 				<div class="logo">
-					<a href="index.php"><img src="https://i.imgur.com/PvQZx7W.png" class="mobilelogo" alt="home logo"></a>
+					<a href="index.php"><img src="https://i.imgur.com/B7FkkQC.png" class="mobilelogo" alt="home logo"></a>
 				</div>
 				<div class="primary-nav-wrapper">
 					<nav>
@@ -73,186 +72,185 @@
 					</div>
 				</div>
 			</div>
-			<div class="container-fluid hidemobile">
+			<div class="container-fluid hidemobile" id="refresh">
 					<div class="row">
 						<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
 						<hr>
-			<!-- IMAGE MAP START --->
-		<main>
-			<section class="interactive-points" id="interactive-1" tabindex="0">
-				<img class="static" src="img/map2-min.jpg" alt="Map of HSV" />
-				<div class="backgrounds hidemobile">
-					<div class="background__element" style="background-image: url(<cms:editable name='grida1_image' type='image' />);"></div>
-					<div class="background__element" style="background-image: url(<cms:editable name='grida2_image' type='image' />);"></div>
-					<div class="background__element" style="background-image: url(<cms:editable name='grida3_image' type='image' />);"></div>
-					<div class="background__element" style="background-image: url(<cms:editable name='grida4_image' type='image' />);"></div>
-					<div class="background__element" style="background-image: url(<cms:editable name='grida5_image' type='image' />);"></div>
-					<div class="background__element" style="background-image: url(<cms:editable name='gridb1_image' type='image' />);"></div>
-					<div class="background__element" style="background-image: url(<cms:editable name='gridb2_image' type='image' />);"></div>
-					<div class="background__element" style="background-image: url(<cms:editable name='gridb3_image' type='image' />);"></div>
-					<div class="background__element" style="background-image: url(<cms:editable name='gridb4_image' type='image' />);"></div>
-					<div class="background__element" style="background-image: url(<cms:editable name='gridb5_image' type='image' />);"></div>
-					<div class="background__element" style="background-image: url(<cms:editable name='gridc1_image' type='image' />);"></div>
-					<div class="background__element" style="background-image: url(<cms:editable name='gridc2_image' type='image' />);"></div>
-					<div class="background__element" style="background-image: url(<cms:editable name='gridc3_image' type='image' />);"></div>
-					<div class="background__element" style="background-image: url(<cms:editable name='gridc4_image' type='image' />);"></div>
-					<div class="background__element" style="background-image: url(<cms:editable name='gridc5_image' type='image' />);"></div>
-					<div class="background__element" style="background-image: url(<cms:editable name='gridd1_image' type='image' />);"></div>
-					<div class="background__element" style="background-image: url(<cms:editable name='gridd2_image' type='image' />);"></div>
-					<div class="background__element" style="background-image: url(<cms:editable name='gridd3_image' type='image' />);"></div>
-					<div class="background__element" style="background-image: url(<cms:editable name='gridd4_image' type='image' />);"></div>
-					<div class="background__element" style="background-image: url(<cms:editable name='gridd5_image' type='image' />);"></div>
-					<div class="background__element" style="background-image: url(<cms:editable name='gride1_image' type='image' />);"></div>
-					<div class="background__element" style="background-image: url(<cms:editable name='gride2_image' type='image' />);"></div>
-					<div class="background__element" style="background-image: url(<cms:editable name='gride3_image' type='image' />);"></div>
-					<div class="background__element" style="background-image: url(<cms:editable name='gride4_image' type='image' />);"></div>
-					<div class="background__element" style="background-image: url(<cms:editable name='gride5_image' type='image' />);"></div>
-				</div>
-				<svg class="points" viewBox="0 0 1885 1080" width="100%" height="100%">
-				<path class="point"d="M566,190.554c51.163,0.807,67.47,0.985,168.227,0.311L733.921,18.02c-79.269,0-96.117,1.031-167.599,0.646"/>
-				<path class="point"d="M739,190.554c52.193,0.807,68.828,0.985,171.613,0.311L910.302,18.02c-80.865,0-98.051,1.031-170.973,0.646"
-				d="M566,190.554c51.163,0.807,67.47,0.985,168.227,0.311L733.921,18.02c-79.269,0-96.117,1.031-167.599,0.646"/>
-				<path class="point"d="M915.748,190.554c51.163,0.807,67.47,0.985,168.227,0.311L1083.67,18.02c-79.27,0-96.117,1.031-167.6,0.646"/>	
-				<path class="point" d="M1088.748,190.554c52.193,0.807,68.828,0.985,171.613,0.311L1260.05,18.02
-				c-80.864,0-98.052,1.031-170.974,0.646"/>
-				<path class="point"d="M1264.721,190.554c51.483,0.807,67.893,0.985,169.279,0.311l-0.308-172.846
-				c-79.764,0-96.718,1.031-168.648,0.646"/>
-				<path class="point"d="M566,363.794c51.163,0.784,67.47,0.958,168.227,0.302l-0.305-168.043c-79.269,0-96.117,1.002-167.599,0.628"
-				/>	
-				<path class="point"d="M739,363.794c52.193,0.784,68.828,0.958,171.613,0.302l-0.312-168.043c-80.865,0-98.051,1.002-170.973,0.628"/>
-				<path class="point"d="M915.748,363.794c51.163,0.784,67.47,0.958,168.227,0.302l-0.305-168.043c-79.27,0-96.117,1.002-167.6,0.628"/>
-				<path class="point" d="M1088.748,363.794c52.193,0.784,68.828,0.958,171.613,0.302l-0.312-168.043
-				c-80.864,0-98.052,1.002-170.974,0.628"/>
-				<path class="point"d="M1264.721,363.794c51.483,0.784,67.893,0.958,169.279,0.302l-0.308-168.043
-				c-79.764,0-96.718,1.002-168.648,0.628"/>
-				<path class="point"d="M566,540.037c51.163,0.8,67.47,0.977,168.227,0.308l-0.305-171.508c-79.269,0-96.117,1.023-167.599,0.641"/>
-				<path class="point"d="M739,540.037c52.193,0.8,68.828,0.977,171.613,0.308l-0.312-171.508c-80.865,0-98.051,1.023-170.973,0.641"/>
-				<path class="point" d="M915.748,540.037c51.163,0.8,67.47,0.977,168.227,0.308l-0.305-171.508c-79.27,0-96.117,1.023-167.6,0.641"/>
-				<path class="point" d="M1088.748,540.037c52.193,0.8,68.828,0.977,171.613,0.308l-0.312-171.508
-				c-80.864,0-98.052,1.023-170.974,0.641"/>
-				<path class="point" d="M1264.721,540.037c51.483,0.8,67.893,0.977,169.279,0.308l-0.308-171.508
-				c-79.764,0-96.718,1.023-168.648,0.641"/>
-				<path class="point"d="M566,713.296c51.163,0.784,67.47,0.957,168.227,0.302l-0.305-168.066c-79.269,0-96.117,1.002-167.599,0.628"/>
-				<path class="point"d="M739,713.296c52.193,0.784,68.828,0.957,171.613,0.302l-0.312-168.066c-80.865,0-98.051,1.002-170.973,0.628"/>
-				<path class="point"d="M915.748,713.296c51.163,0.784,67.47,0.957,168.227,0.302l-0.305-168.066c-79.27,0-96.117,1.002-167.6,0.628"/>
-				<path class="point" d="M1088.748,713.296c52.193,0.784,68.828,0.957,171.613,0.302l-0.312-168.066
-				c-80.864,0-98.052,1.002-170.974,0.628"/>
-				<path class="point"d="M1264.721,713.296c51.483,0.784,67.893,0.957,169.279,0.302l-0.308-168.066
-				c-79.764,0-96.718,1.002-168.648,0.628"/>
-				<path class="point" d="M566,889.975c51.163,0.8,67.47,0.977,168.227,0.308l-0.305-171.508c-79.269,0-96.117,1.022-167.599,0.641"/>
-				<path class="point"d="M739,889.975c52.193,0.8,68.828,0.977,171.613,0.308l-0.312-171.508c-80.865,0-98.051,1.022-170.973,0.641"/>
-				<path class="point" d="M915.748,889.975c51.163,0.8,67.47,0.977,168.227,0.308l-0.305-171.508c-79.27,0-96.117,1.022-167.6,0.641"/>
-				<path class="point" d="M1088.748,889.975c52.193,0.8,68.828,0.977,171.613,0.308l-0.312-171.508
-				c-80.864,0-98.052,1.022-170.974,0.641"/>
-				<path class="point" d="M1264.721,889.975c51.483,0.8,67.893,0.977,169.279,0.308l-0.308-171.508
-				c-79.764,0-96.718,1.022-168.648,0.641"/>
-				</svg>
-				<div class="points-tooltips hidemobile">
-					<div class="point-tooltip"><h2 class="point-tooltip__title">Grid A1</h2></div>
-					<div class="point-tooltip"><h2 class="point-tooltip__title">Grid A2</h2><br></div>
-					<div class="point-tooltip"><h2 class="point-tooltip__title">Grid A3</h2><br></div>
-					<div class="point-tooltip"><h2 class="point-tooltip__title">Grid A4</h2><br></div>
-					<div class="point-tooltip"><h2 class="point-tooltip__title">Grid A5</h2><br></div>
-					<div class="point-tooltip"><h2 class="point-tooltip__title">Grid B1</h2><br></div>
-					<div class="point-tooltip"><h2 class="point-tooltip__title">Grid B2</h2><br></div>
-					<div class="point-tooltip"><h2 class="point-tooltip__title">Grid B3</h2><br></div>
-					<div class="point-tooltip"><h2 class="point-tooltip__title">Grid B4</h2><br></div>
-					<div class="point-tooltip"><h2 class="point-tooltip__title">Grid B5</h2><br></div>
-					<div class="point-tooltip"><h2 class="point-tooltip__title">Grid C1</h2><br></div>
-					<div class="point-tooltip"><h2 class="point-tooltip__title">Grid C2</h2><br></div>
-					<div class="point-tooltip"><h2 class="point-tooltip__title">Grid C3</h2><br></div>
-					<div class="point-tooltip"><h2 class="point-tooltip__title">Grid C4</h2><br></div>
-					<div class="point-tooltip"><h2 class="point-tooltip__title">Grid C5</h2><br></div>
-					<div class="point-tooltip"><h2 class="point-tooltip__title">Grid D1</h2><br></div>
-					<div class="point-tooltip"><h2 class="point-tooltip__title">Grid D2</h2><br></div>
-					<div class="point-tooltip"><h2 class="point-tooltip__title">Grid D3</h2><br></div>
-					<div class="point-tooltip"><h2 class="point-tooltip__title">Grid D4</h2><br></div>
-					<div class="point-tooltip"><h2 class="point-tooltip__title">Grid D5</h2><br></div>
-					<div class="point-tooltip"><h2 class="point-tooltip__title">Grid E1</h2><br></div>
-					<div class="point-tooltip"><h2 class="point-tooltip__title">Grid E2</h2><br></div>
-					<div class="point-tooltip"><h2 class="point-tooltip__title">Grid E3</h2><br></div>
-					<div class="point-tooltip"><h2 class="point-tooltip__title">Grid E4</h2><br></div>
-					<div class="point-tooltip"><h2 class="point-tooltip__title">Grid E5</h2><br></div>
-				</div>
-				<div class="points-content">
-					<div class="point-content">
-					<a href="grida1.php" class="gridlinks">Visit Grid A1</a>
-					</div>
-					<div class="point-content">
-					<a href="grida2.php" class="gridlinks">Visit Grid A2</a>
-					</div>
-					<div class="point-content">
-					<a href="grida3.php" class="gridlinks">Visit Grid A3</a>
-					</div>
-					<div class="point-content">
-					<a href="grida4.php" class="gridlinks">Visit Grid A4</a>
-					</div>
-					<div class="point-content">
-					<a href="grida5.php" class="gridlinks">Visit Grid A5</a>
-					</div>
-					<div class="point-content">
-					<a href="gridb1.php" class="gridlinks">Visit Grid B1</a>
-					</div>
-					<div class="point-content">
-					<a href="gridb2.php" class="gridlinks">Visit Grid B2</a>
-					</div>
-					<div class="point-content">
-					<a href="gridb3.php" class="gridlinks">Visit Grid B3</a>
-					</div>
-					<div class="point-content">
-					<a href="gridb4.php" class="gridlinks">Visit Grid B4</a>
-					</div>
-					<div class="point-content">
-					<a href="gridb5.php" class="gridlinks">Visit Grid B5</a>
-					</div>
-					<div class="point-content">
-					<a href="gridc1.php" class="gridlinks">Visit Grid C1</a>
-					</div>
-					<div class="point-content">
-					<a href="gridc2.php" class="gridlinks">Visit Grid C2</a>
-					</div>
-					<div class="point-content">
-					<a href="gridc3.php" class="gridlinks">Visit Grid C3</a>
-					</div>
-					<div class="point-content">
-					<a href="gridc4.php" class="gridlinks">Visit Grid C4</a>
-					</div>
-					<div class="point-content">
-					<a href="gridc5.php" class="gridlinks">Visit Grid C5</a>
-					</div>
-					<div class="point-content">
-					<a href="gridd1.php" class="gridlinks">Visit Grid D1</a>
-					</div>
-					<div class="point-content">
-					<a href="gridd2.php" class="gridlinks">Visit Grid D2</a>
-					</div>
-					<div class="point-content">
-					<a href="gridd3.php" class="gridlinks">Visit Grid D3</a>
-					</div>
-					<div class="point-content">
-					<a href="gridd4.php" class="gridlinks">Visit Grid D4</a>
-					</div>
-					<div class="point-content">
-					<a href="gridd5.php" class="gridlinks">Visit Grid D5</a>
-					</div>
-					<div class="point-content">
-					<a href="gride1.php" class="gridlinks">Visit Grid E1</a>
-					</div>
-					<div class="point-content">
-					<a href="gride2.php" class="gridlinks">Visit Grid E2</a>
-					</div>
-					<div class="point-content">
-					<a href="gride3.php" class="gridlinks">Visit Grid E3</a>
-					</div>
-					<div class="point-content">
-					<a href="gride4.php" class="gridlinks">Visit Grid E4</a>
-					</div>
-					<div class="point-content">
-					<a href="gride5.php" class="gridlinks">Visit Grid E5</a>
-					</div>
-				</div>
-			</section>
-		</main>
+					<!-- IMAGE MAP START --->
+					<main>
+						<section class="interactive-points" id="interactive-1" tabindex="0">
+							<img class="static" src="img/map2-min.jpg" alt="Map of HSV" />
+							<div class="backgrounds">
+								<div class="background__element" style="background-image: url(<cms:editable name='grida1_image' type='image' />);"></div>
+								<div class="background__element" style="background-image: url(<cms:editable name='grida2_image' type='image' />);"></div>
+								<div class="background__element" style="background-image: url(<cms:editable name='grida3_image' type='image' />);"></div>
+								<div class="background__element" style="background-image: url(<cms:editable name='grida4_image' type='image' />);"></div>
+								<div class="background__element" style="background-image: url(<cms:editable name='grida5_image' type='image' />);"></div>
+								<div class="background__element" style="background-image: url(<cms:editable name='gridb1_image' type='image' />);"></div>
+								<div class="background__element" style="background-image: url(<cms:editable name='gridb2_image' type='image' />);"></div>
+								<div class="background__element" style="background-image: url(<cms:editable name='gridb3_image' type='image' />);"></div>
+								<div class="background__element" style="background-image: url(<cms:editable name='gridb4_image' type='image' />);"></div>
+								<div class="background__element" style="background-image: url(<cms:editable name='gridb5_image' type='image' />);"></div>
+								<div class="background__element" style="background-image: url(<cms:editable name='gridc1_image' type='image' />);"></div>
+								<div class="background__element" style="background-image: url(<cms:editable name='gridc2_image' type='image' />);"></div>
+								<div class="background__element" style="background-image: url(<cms:editable name='gridc3_image' type='image' />);"></div>
+								<div class="background__element" style="background-image: url(<cms:editable name='gridc4_image' type='image' />);"></div>
+								<div class="background__element" style="background-image: url(<cms:editable name='gridc5_image' type='image' />);"></div>
+								<div class="background__element" style="background-image: url(<cms:editable name='gridd1_image' type='image' />);"></div>
+								<div class="background__element" style="background-image: url(<cms:editable name='gridd2_image' type='image' />);"></div>
+								<div class="background__element" style="background-image: url(<cms:editable name='gridd3_image' type='image' />);"></div>
+								<div class="background__element" style="background-image: url(<cms:editable name='gridd4_image' type='image' />);"></div>
+								<div class="background__element" style="background-image: url(<cms:editable name='gridd5_image' type='image' />);"></div>
+								<div class="background__element" style="background-image: url(<cms:editable name='gride1_image' type='image' />);"></div>
+								<div class="background__element" style="background-image: url(<cms:editable name='gride2_image' type='image' />);"></div>
+								<div class="background__element" style="background-image: url(<cms:editable name='gride3_image' type='image' />);"></div>
+								<div class="background__element" style="background-image: url(<cms:editable name='gride4_image' type='image' />);"></div>
+								<div class="background__element" style="background-image: url(<cms:editable name='gride5_image' type='image' />);"></div>
+							</div>
+							<svg class="points" viewBox="0 0 1885 1080" width="100%" height="100%">
+							<path class="point" d="M566,190.554c51.163,0.807,67.47,0.985,168.227,0.311L733.921,18.02c-79.269,0-96.117,1.031-167.599,0.646"/>
+							<path class="point" d="M739,190.554c52.193,0.807,68.828,0.985,171.613,0.311L910.302,18.02c-80.865,0-98.051,1.031-170.973,0.646"/>
+							<path class="point" d="M915.748,190.554c51.163,0.807,67.47,0.985,168.227,0.311L1083.67,18.02c-79.27,0-96.117,1.031-167.6,0.646"/>	
+							<path class="point" d="M1088.748,190.554c52.193,0.807,68.828,0.985,171.613,0.311L1260.05,18.02
+							c-80.864,0-98.052,1.031-170.974,0.646"/>
+							<path class="point" d="M1264.721,190.554c51.483,0.807,67.893,0.985,169.279,0.311l-0.308-172.846
+							c-79.764,0-96.718,1.031-168.648,0.646"/>
+							<path class="point" d="M566,363.794c51.163,0.784,67.47,0.958,168.227,0.302l-0.305-168.043c-79.269,0-96.117,1.002-167.599,0.628"
+							/>	
+							<path class="point" d="M739,363.794c52.193,0.784,68.828,0.958,171.613,0.302l-0.312-168.043c-80.865,0-98.051,1.002-170.973,0.628"/>
+							<path class="point" d="M915.748,363.794c51.163,0.784,67.47,0.958,168.227,0.302l-0.305-168.043c-79.27,0-96.117,1.002-167.6,0.628"/>
+							<path class="point" d="M1088.748,363.794c52.193,0.784,68.828,0.958,171.613,0.302l-0.312-168.043
+							c-80.864,0-98.052,1.002-170.974,0.628"/>
+							<path class="point" d="M1264.721,363.794c51.483,0.784,67.893,0.958,169.279,0.302l-0.308-168.043
+							c-79.764,0-96.718,1.002-168.648,0.628"/>
+							<path class="point" d="M566,540.037c51.163,0.8,67.47,0.977,168.227,0.308l-0.305-171.508c-79.269,0-96.117,1.023-167.599,0.641"/>
+							<path class="point" d="M739,540.037c52.193,0.8,68.828,0.977,171.613,0.308l-0.312-171.508c-80.865,0-98.051,1.023-170.973,0.641"/>
+							<path class="point" d="M915.748,540.037c51.163,0.8,67.47,0.977,168.227,0.308l-0.305-171.508c-79.27,0-96.117,1.023-167.6,0.641"/>
+							<path class="point" d="M1088.748,540.037c52.193,0.8,68.828,0.977,171.613,0.308l-0.312-171.508
+							c-80.864,0-98.052,1.023-170.974,0.641"/>
+							<path class="point" d="M1264.721,540.037c51.483,0.8,67.893,0.977,169.279,0.308l-0.308-171.508
+							c-79.764,0-96.718,1.023-168.648,0.641"/>
+							<path class="point" d="M566,713.296c51.163,0.784,67.47,0.957,168.227,0.302l-0.305-168.066c-79.269,0-96.117,1.002-167.599,0.628"/>
+							<path class="point" d="M739,713.296c52.193,0.784,68.828,0.957,171.613,0.302l-0.312-168.066c-80.865,0-98.051,1.002-170.973,0.628"/>
+							<path class="point" d="M915.748,713.296c51.163,0.784,67.47,0.957,168.227,0.302l-0.305-168.066c-79.27,0-96.117,1.002-167.6,0.628"/>
+							<path class="point" d="M1088.748,713.296c52.193,0.784,68.828,0.957,171.613,0.302l-0.312-168.066
+							c-80.864,0-98.052,1.002-170.974,0.628"/>
+							<path class="point" d="M1264.721,713.296c51.483,0.784,67.893,0.957,169.279,0.302l-0.308-168.066
+							c-79.764,0-96.718,1.002-168.648,0.628"/>
+							<path class="point" d="M566,889.975c51.163,0.8,67.47,0.977,168.227,0.308l-0.305-171.508c-79.269,0-96.117,1.022-167.599,0.641"/>
+							<path class="point" d="M739,889.975c52.193,0.8,68.828,0.977,171.613,0.308l-0.312-171.508c-80.865,0-98.051,1.022-170.973,0.641"/>
+							<path class="point" d="M915.748,889.975c51.163,0.8,67.47,0.977,168.227,0.308l-0.305-171.508c-79.27,0-96.117,1.022-167.6,0.641"/>
+							<path class="point" d="M1088.748,889.975c52.193,0.8,68.828,0.977,171.613,0.308l-0.312-171.508
+							c-80.864,0-98.052,1.022-170.974,0.641"/>
+							<path class="point" d="M1264.721,889.975c51.483,0.8,67.893,0.977,169.279,0.308l-0.308-171.508
+							c-79.764,0-96.718,1.022-168.648,0.641"/>
+							</svg>
+							<div class="points-tooltips">
+								<div class="point-tooltip"><h2 class="point-tooltip__title">Grid A1</h2></div>
+								<div class="point-tooltip"><h2 class="point-tooltip__title">Grid A2</h2><br></div>
+								<div class="point-tooltip"><h2 class="point-tooltip__title">Grid A3</h2><br></div>
+								<div class="point-tooltip"><h2 class="point-tooltip__title">Grid A4</h2><br></div>
+								<div class="point-tooltip"><h2 class="point-tooltip__title">Grid A5</h2><br></div>
+								<div class="point-tooltip"><h2 class="point-tooltip__title">Grid B1</h2><br></div>
+								<div class="point-tooltip"><h2 class="point-tooltip__title">Grid B2</h2><br></div>
+								<div class="point-tooltip"><h2 class="point-tooltip__title">Grid B3</h2><br></div>
+								<div class="point-tooltip"><h2 class="point-tooltip__title">Grid B4</h2><br></div>
+								<div class="point-tooltip"><h2 class="point-tooltip__title">Grid B5</h2><br></div>
+								<div class="point-tooltip"><h2 class="point-tooltip__title">Grid C1</h2><br></div>
+								<div class="point-tooltip"><h2 class="point-tooltip__title">Grid C2</h2><br></div>
+								<div class="point-tooltip"><h2 class="point-tooltip__title">Grid C3</h2><br></div>
+								<div class="point-tooltip"><h2 class="point-tooltip__title">Grid C4</h2><br></div>
+								<div class="point-tooltip"><h2 class="point-tooltip__title">Grid C5</h2><br></div>
+								<div class="point-tooltip"><h2 class="point-tooltip__title">Grid D1</h2><br></div>
+								<div class="point-tooltip"><h2 class="point-tooltip__title">Grid D2</h2><br></div>
+								<div class="point-tooltip"><h2 class="point-tooltip__title">Grid D3</h2><br></div>
+								<div class="point-tooltip"><h2 class="point-tooltip__title">Grid D4</h2><br></div>
+								<div class="point-tooltip"><h2 class="point-tooltip__title">Grid D5</h2><br></div>
+								<div class="point-tooltip"><h2 class="point-tooltip__title">Grid E1</h2><br></div>
+								<div class="point-tooltip"><h2 class="point-tooltip__title">Grid E2</h2><br></div>
+								<div class="point-tooltip"><h2 class="point-tooltip__title">Grid E3</h2><br></div>
+								<div class="point-tooltip"><h2 class="point-tooltip__title">Grid E4</h2><br></div>
+								<div class="point-tooltip"><h2 class="point-tooltip__title">Grid E5</h2><br></div>
+							</div>
+							<div class="points-content">
+								<div class="point-content">
+								<a href="grida1.php" class="gridlinks">Visit Grid A1</a>
+								</div>
+								<div class="point-content">
+								<a href="grida2.php" class="gridlinks">Visit Grid A2</a>
+								</div>
+								<div class="point-content">
+								<a href="grida3.php" class="gridlinks">Visit Grid A3</a>
+								</div>
+								<div class="point-content">
+								<a href="grida4.php" class="gridlinks">Visit Grid A4</a>
+								</div>
+								<div class="point-content">
+								<a href="grida5.php" class="gridlinks">Visit Grid A5</a>
+								</div>
+								<div class="point-content">
+								<a href="gridb1.php" class="gridlinks">Visit Grid B1</a>
+								</div>
+								<div class="point-content">
+								<a href="gridb2.php" class="gridlinks">Visit Grid B2</a>
+								</div>
+								<div class="point-content">
+								<a href="gridb3.php" class="gridlinks">Visit Grid B3</a>
+								</div>
+								<div class="point-content">
+								<a href="gridb4.php" class="gridlinks">Visit Grid B4</a>
+								</div>
+								<div class="point-content">
+								<a href="gridb5.php" class="gridlinks">Visit Grid B5</a>
+								</div>
+								<div class="point-content">
+								<a href="gridc1.php" class="gridlinks">Visit Grid C1</a>
+								</div>
+								<div class="point-content">
+								<a href="gridc2.php" class="gridlinks">Visit Grid C2</a>
+								</div>
+								<div class="point-content">
+								<a href="gridc3.php" class="gridlinks">Visit Grid C3</a>
+								</div>
+								<div class="point-content">
+								<a href="gridc4.php" class="gridlinks">Visit Grid C4</a>
+								</div>
+								<div class="point-content">
+								<a href="gridc5.php" class="gridlinks">Visit Grid C5</a>
+								</div>
+								<div class="point-content">
+								<a href="gridd1.php" class="gridlinks">Visit Grid D1</a>
+								</div>
+								<div class="point-content">
+								<a href="gridd2.php" class="gridlinks">Visit Grid D2</a>
+								</div>
+								<div class="point-content">
+								<a href="gridd3.php" class="gridlinks">Visit Grid D3</a>
+								</div>
+								<div class="point-content">
+								<a href="gridd4.php" class="gridlinks">Visit Grid D4</a>
+								</div>
+								<div class="point-content">
+								<a href="gridd5.php" class="gridlinks">Visit Grid D5</a>
+								</div>
+								<div class="point-content">
+								<a href="gride1.php" class="gridlinks">Visit Grid E1</a>
+								</div>
+								<div class="point-content">
+								<a href="gride2.php" class="gridlinks">Visit Grid E2</a>
+								</div>
+								<div class="point-content">
+								<a href="gride3.php" class="gridlinks">Visit Grid E3</a>
+								</div>
+								<div class="point-content">
+								<a href="gride4.php" class="gridlinks">Visit Grid E4</a>
+								</div>
+								<div class="point-content">
+								<a href="gride5.php" class="gridlinks">Visit Grid E5</a>
+								</div>
+							</div>
+						</section>
+					</main>
 <!-- MAP END -->
 		</div>
 	</div>
@@ -304,7 +302,7 @@
 	<!-- END SECTION: Intro -->
 	<!-- SECTION: Stats -->
 	<div class="stats has-padding-tall" style="background-image:url(<cms:editable name='bg_stats' type='image' />);">
-		<div class="container">
+		<div class="container wp4">
 			<div class="row">
 				<div class="col-md-6 col-sm-6 stats-container">
 					<i class="fa fa-camera fa-4x" aria-hidden="true"></i>
@@ -456,7 +454,7 @@
 	<section style="height:400px;" class="get-started has-padding text-center" id="get-started" style="background-image:url(<cms:editable name='bg_thanks_for_visitng' type='image' />);">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-12">
+				<div class="col-md-12 wp4">
 					<h2>THANKS FOR VISITING THE HSV GRID PROJECT!</h2>
 				</div>
 			</div>
@@ -492,8 +490,8 @@
 	<script src="js/min/scripts-min.js"></script>
 	<script src="js/imagesloaded.pkgd.min.js"></script>
 	<script src="js/lunar.js"></script>
-		<script src="js/main.js"></script>
-		<script>
+	<script src="js/main.js" id="head"></script>
+	<script>
 		(function() {
 			new PointsMap(document.querySelector('#interactive-1'));
 			new PointsMap(document.querySelector('#interactive-2'), {
@@ -503,7 +501,14 @@
 				activeOn : 90
 			});
 		})();
-		</script>
+	</script>
+	<script>
+    function reload_js(src) {
+        $('script[src="' + src + '"]').remove();
+        $('<script>').attr('src', src).appendTo('head');
+    }
+    reload_js('js/main.js');
+	</script>
 </body>
 
 </html>

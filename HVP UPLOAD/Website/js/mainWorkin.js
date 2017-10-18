@@ -204,23 +204,6 @@
 	/**
 	 * 
 	 */
-	/**
-	 * Hides the Point2.
-	 */
-	Point.prototype.hide2 = function() {
-		lunar.addClass(this.el, 'point--hide2');
-	};
-
-	/**
-	 * 
-	 */
-	Point.prototype.show2 = function() {
-		lunar.removeClass(this.el, 'point--hide2')
-	};
-
-	/**
-	 * 
-	 */
 	Point.prototype.pause = function() {
 		this.wrapper.removeEventListener('mousemove', this._throttleMousemove);
 	};
@@ -293,7 +276,6 @@
 		// Preload all images.
 		imagesLoaded(this.bgsWrapper, { background: true }, onLoaded);
 
-
 		// Init/Bind events.
 		this._initEvents();
 	};
@@ -323,7 +305,7 @@
 			// Start mousemove event on Points.
 			self._pointsAction('resume');
 			// Show all points.
-			self._pointsAction('show2');
+			self._pointsAction('show');
 		};
 		this.pointsContentWrapper.addEventListener('click', this._closeContent);
 
@@ -375,7 +357,7 @@
 					self.currentPoint = pos;
 					lunar.removeClass(self.points[pos].el, 'point--active');
 					// Hide the current point (and all other points).
-					self._pointsAction('hide2');
+					self._pointsAction('hide');
 					// Hide tooltip.
 					self.tooltips[pos].classList.remove('point-tooltip--current');
 					// Stop mousemove event on Points.
