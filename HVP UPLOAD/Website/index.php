@@ -72,7 +72,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="container-fluid hidemobile" id="refresh">
+			<div class="container-fluid hidemobile">
 					<div class="row">
 						<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
 						<hr>
@@ -428,23 +428,19 @@
 	</section>
 	<!-- END SECTION: similarsites -->
 	<!-- SECTION: CONTACT --->
-	<section class="similarsites" id="contact" name="contact">
-		<div class="container similarsites-intro">
+	<section class="collective has-padding" id="contact" name="contact">
+		<div class="container">
 			<div class="row">
-				<div class="col-md-12">
+				<div class="col-md-3">
 					<h4>Contact</h4>
 				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-6 content-left">
+				<div class="col-md-9">
 					<cms:editable name='contact_content1' type='richtext'>
 					<p>Why contact</p>
 					</cms:editable>
 				</div>
-				<div class="col-md-6 content-right">
-					<cms:editable name='contact_content2' type='richtext'>
-					<p>Contact Info</p>
-					</cms:editable>
+				<div class="col-md-offset-2 col-md-3 email">
+					<a class="gridlinks" href=mailto:jab0008@uah.edu>EMAIL</a>
 				</div>
 			</div>
 		</div>
@@ -509,6 +505,21 @@
     }
     reload_js('js/main.js');
 	</script>
+	<script>
+/*location.hash returns the anchor part of an URL as a string, 
+with hash (#) symbol included. */
+//wait for page elements to load
+//execute function only if the anchor exists in the URL address
+	window.onload = function() {if(location.hash){
+    //remove # from the string
+    var elId = location.hash.replace('#','');
+    //locate the anchored element on the page by its ID property 
+    var scrollToEl = document.getElementById(elId);
+    //scroll to the anchored element
+    scrollToEl.scrollIntoView(true);   
+}
+ }
+</script>
 </body>
 
 </html>

@@ -25,34 +25,54 @@
 	<script src="js/modernizr-custom.js"></script>
 	<script src="js/moment.js"></script>
     <script src="<cms:show k_site_link />js/exif.js"></script>
-    <script>
+     <script>
         function getExif(id) {
             var img = document.getElementById(id);
-
+            
             EXIF.getData(img, function() {
                 var model = EXIF.getTag(this, "Model");
-                var modelDataSpan = document.getElementById('model-'+id);
-                modelDataSpan.innerHTML = `${model}`;
+                
+                if (model) {
+                  var modelDataSpan = document.getElementById('model-'+id);
+                  modelDataSpan.innerHTML = `${model}`;
+                }
+                
 				var focal = EXIF.getTag(this, "FocalLength");
-                var focalDataSpan = document.getElementById('focal-'+id);
-                focalDataSpan.innerHTML = `${focal}`;
+				
+				if (focal) {
+                  var focalDataSpan = document.getElementById('focal-'+id);
+                  focalDataSpan.innerHTML = `${focal}`;
+                }
+				
 				var aperture = EXIF.getTag(this, "ApertureValue");
-				var aperturesmall = aperture.toFixed(2);
-                var apertureDataSpan = document.getElementById('aperture-'+id);
-               apertureDataSpan.innerHTML = `${aperturesmall}`;
+				
+				if (aperture) {
+				  var aperturesmall = aperture.toFixed(2);
+                  var apertureDataSpan = document.getElementById('aperture-'+id);
+                  apertureDataSpan.innerHTML = `${aperturesmall}`;
+                }
+                
 				var exposure = EXIF.getTag(this, "ExposureTime");
-				var exposuresmall = exposure.toFixed(2);
-                var exposureDataSpan = document.getElementById('exposure-'+id);
-                exposureDataSpan.innerHTML = `${exposuresmall}`;
+				
+				if (exposure) {
+		    		var exposuresmall = exposure.toFixed(2);
+                    var exposureDataSpan = document.getElementById('exposure-'+id);
+                    exposureDataSpan.innerHTML = `${exposuresmall}`;
+                }
+                
 				var iso = EXIF.getTag(this, "DateTimeOriginal");
-                var isoDataSpan = document.getElementById('iso-'+id);
-				function parseDate(s) {
-				var b = s.split(/\D/);
-				return new Date(b[0],b[1]-1,b[2],b[3],b[4],b[5]);
+				
+				if (iso) {
+                  var isoDataSpan = document.getElementById('iso-'+id);
+
+  			      function parseDate(s) {
+			        var b = s.split(/\D/);
+			        return new Date(b[0],b[1]-1,b[2],b[3],b[4],b[5]);
+			      }
+		    		var why = parseDate(iso);
+	     		  	var ok = moment(why).format("MMM Do YYYY");
+				  isoDataSpan.innerHTML = `${ok}`;
 				}
-				var why = parseDate(iso);
-				var ok = moment(why).format("MMM Do YYYY");
-				isoDataSpan.innerHTML = `${ok}`;
             });
         }
       </script>
@@ -64,7 +84,7 @@
 		<div class="col-xl-10 col-xl-offset-2 col-lg-8 col-lg-offset-2 col-md-12 col-sm-12">
 			<div class="header-nav-wrapper">
 				<div class="logo">
-					<a href="index.php"><img src="https://i.imgur.com/B7FkkQC.pngg" class="mobilelogo" alt="home logo"></a>
+					<a href="index.php"><img src="https://i.imgur.com/B7FkkQC.png" class="mobilelogo" alt="home logo"></a>
 				</div>
 				<div class="primary-nav-wrapper">
 					<nav>
@@ -103,8 +123,8 @@
 						<div class="description description--grid"><p class="imgtitle"><cms:show image_title/></p>
 						<div class="details">
 								<ul>
-									<li><i class="icon icon-camera"></i><span id="model-img-<cms:show k_page_id />"></span></li>
-									<li><i class="icon icon-focal_length"></i><span id="focal-img-<cms:show k_page_id />"></span></li>
+									<li><i class="icon icon-camera"></i><span id="model-img-<cms:show k_page_id />"></span><cms:show camera/></li>
+									<li><i class="icon icon-focal_length"></i><span id="focal-img-<cms:show k_page_id />"></span><cms:show focal_length/></li>
 									<li><i class="icon icon-aperture"></i><span id="aperture-img-<cms:show k_page_id />"></span></li>
 									<li><i class="icon icon-exposure_time"></i><span id="exposure-img-<cms:show k_page_id />"></span></li>
 									<li><i class="fa fa-clock-o" aria-hidden="true"></i><span id="iso-img-<cms:show k_page_id />"></span></li>

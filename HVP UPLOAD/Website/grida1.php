@@ -21,6 +21,8 @@
       type="thumbnail"
    />
    <cms:editable name='image_title' type='text' />
+   <cms:editable name='camera' type='text' />
+   <cms:editable name='focal_length' type='text' />
 </cms:template>
 <cms:if k_is_page >
 <!doctype html>

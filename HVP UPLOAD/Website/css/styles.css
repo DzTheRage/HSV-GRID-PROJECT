@@ -998,7 +998,9 @@ div.mouse span.scroll-down {
     top: 0;
     right: 0
 }
-
+.email {
+    margin-top:15px;
+}
 .similarsites .has-overlay:after {
     position: absolute;
     z-index: 1;
